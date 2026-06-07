@@ -36,10 +36,9 @@ export function AppShell({ activePage, onNavigate, children }: AppShellProps) {
           />
         )}
         <div
-          className={cn(
-            'fixed inset-y-0 left-0 z-40 w-[280px] -translate-x-full transition lg:hidden',
-            mobileOpen && 'translate-x-0',
-          )}
+          className={`fixed inset-y-0 left-0 z-40 w-[280px] transition-transform duration-300 lg:hidden ${
+            mobileOpen ? 'translate-x-0' : '-translate-x-full'
+          }`}
         >
           <Sidebar
             activePage={activePage}
