@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     whisper_model: str = "tiny"
     master_workbook_path: Path = BACKEND_DIR / "data" / "master.xlsx"
     data_dir: Path = BACKEND_DIR / "data"
-    cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173"
+    cors_origins: str = "*"
 
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
 
