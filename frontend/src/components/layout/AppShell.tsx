@@ -2,7 +2,6 @@ import { Menu, ScanLine } from 'lucide-react'
 import { type ReactNode, useState } from 'react'
 import { Button } from '../ui/button'
 import { type Page, Sidebar } from './Sidebar'
-import { cn } from '../../lib/utils'
 
 interface AppShellProps {
   activePage: Page
