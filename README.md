@@ -1,3 +1,12 @@
+---
+title: ORDO
+colorFrom: red
+colorTo: gray
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # ORDO
 
 ORDO is a local full-stack application for digitizing handwritten, audio, and
@@ -82,3 +91,17 @@ Render setup:
 - Add `GEMINI_API_KEY` as a secret environment variable if Gemini fallback is
   needed.
 - Keep `WHISPER_MODEL=tiny` for faster audio transcription on small instances.
+
+## Deploy on Hugging Face Spaces
+
+Use a public Docker Space for a fully free single-service deployment. The Space
+metadata at the top of this README tells Hugging Face to build the root
+`Dockerfile` and expose ORDO on port `7860`.
+
+Recommended Space configuration:
+
+- SDK: Docker
+- Hardware: CPU basic
+- Secrets: `GEMINI_API_KEY`
+- Environment: `WHISPER_MODEL=tiny`
+- Health check path: `/health`

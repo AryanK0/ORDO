@@ -25,6 +25,6 @@ RUN python -m pip install --upgrade pip \
 COPY backend/ ./backend/
 COPY --from=frontend-build /app/frontend/dist ./frontend/dist
 
-EXPOSE 8000
+EXPOSE 7860
 
-CMD python -m uvicorn app.main:app --app-dir backend --host 0.0.0.0 --port ${PORT:-8000}
+CMD python -m uvicorn app.main:app --app-dir backend --host 0.0.0.0 --port ${PORT:-7860}
