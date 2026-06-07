@@ -60,16 +60,16 @@ export function RecognitionTable({ rows, onRowsChange }: RecognitionTableProps) 
   }
 
   return (
-    <div className="rounded-lg border border-white/[0.08] bg-black/30 shadow-2xl shadow-black/20">
+    <div className="overflow-hidden rounded-lg border border-white/[0.08] bg-black/35 shadow-2xl shadow-black/20">
       <div className="flex flex-col gap-3 border-b border-white/[0.08] p-4 xl:flex-row xl:items-center xl:justify-between">
-        <div>
-          <h3 className="text-base font-semibold text-white">Recognition results</h3>
+        <div className="min-w-0">
+          <h3 className="truncate text-base font-semibold text-white">Recognition results</h3>
           <p className="text-sm text-zinc-500">
-            {rows.length} rows · {average(rows.map((row) => row.confidence))}% average confidence
+            {rows.length} rows | {average(rows.map((row) => row.confidence))}% average confidence
           </p>
         </div>
-        <div className="flex flex-col gap-2 sm:flex-row">
-          <div className="relative">
+        <div className="flex min-w-0 flex-col gap-2 sm:flex-row sm:flex-wrap xl:justify-end">
+          <div className="relative min-w-0">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-zinc-600" size={15} />
             <Input
               className="w-full pl-9 sm:w-64"
@@ -79,7 +79,7 @@ export function RecognitionTable({ rows, onRowsChange }: RecognitionTableProps) 
             />
           </div>
           <select
-            className="h-10 rounded-md border border-white/10 bg-black/30 px-3 text-sm text-zinc-200 outline-none"
+            className="h-10 min-w-0 rounded-md border border-white/10 bg-black/30 px-3 text-sm text-zinc-200 outline-none"
             value={filter}
             onChange={(event) => setFilter(event.target.value as 'all' | 'review')}
           >
@@ -87,7 +87,7 @@ export function RecognitionTable({ rows, onRowsChange }: RecognitionTableProps) 
             <option value="review">Needs review</option>
           </select>
           <select
-            className="h-10 rounded-md border border-white/10 bg-black/30 px-3 text-sm text-zinc-200 outline-none"
+            className="h-10 min-w-0 rounded-md border border-white/10 bg-black/30 px-3 text-sm text-zinc-200 outline-none"
             value={sort}
             onChange={(event) => setSort(event.target.value as SortMode)}
           >
@@ -97,21 +97,21 @@ export function RecognitionTable({ rows, onRowsChange }: RecognitionTableProps) 
           </select>
           <Button onClick={addRow}>
             <Plus size={16} />
-            Add row
+            <span>Add row</span>
           </Button>
         </div>
       </div>
 
       <div className="overflow-x-auto">
-        <table className="w-full min-w-[980px] text-left text-sm">
+        <table className="w-full min-w-[980px] table-fixed text-left text-sm">
           <thead className="text-xs uppercase text-zinc-600">
             <tr className="border-b border-white/[0.08]">
               <th className="w-10 px-4 py-3" />
-              <th className="px-4 py-3">OCR Text</th>
-              <th className="px-4 py-3">Matched Product</th>
-              <th className="px-4 py-3">Quantity</th>
-              <th className="px-4 py-3">Confidence</th>
-              <th className="px-4 py-3 text-right">Actions</th>
+              <th className="w-[31%] px-4 py-3">OCR Text</th>
+              <th className="w-[33%] px-4 py-3">Matched Product</th>
+              <th className="w-32 px-4 py-3">Quantity</th>
+              <th className="w-32 px-4 py-3">Confidence</th>
+              <th className="w-24 px-4 py-3 text-right">Actions</th>
             </tr>
           </thead>
           <tbody>
@@ -137,12 +137,15 @@ export function RecognitionTable({ rows, onRowsChange }: RecognitionTableProps) 
                     </td>
                     <td className="px-4 py-4">
                       <Input
+                        className="min-w-0"
                         value={row.ocrText}
                         onChange={(event) => patchRow(row.id, { ocrText: event.target.value })}
                       />
                     </td>
                     <td className="px-4 py-4">
-                      <ProductCombobox value={row.matchedProduct} onChange={(product) => setProduct(row.id, product)} />
+                      <div className="min-w-0">
+                        <ProductCombobox value={row.matchedProduct} onChange={(product) => setProduct(row.id, product)} />
+                      </div>
                     </td>
                     <td className="px-4 py-4">
                       <Input
@@ -158,7 +161,7 @@ export function RecognitionTable({ rows, onRowsChange }: RecognitionTableProps) 
                     </td>
                     <td className="px-4 py-4 text-right">
                       <Button
-                        className="h-9 w-9 p-0"
+                        className="h-9 min-h-9 w-9 p-0"
                         variant="danger"
                         onClick={() => onRowsChange(rows.filter((item) => item.id !== row.id))}
                         aria-label="Delete row"
@@ -178,7 +181,7 @@ export function RecognitionTable({ rows, onRowsChange }: RecognitionTableProps) 
                               key={`${row.id}-${suggestion.product.id}`}
                               onClick={() => setProduct(row.id, suggestion.product)}
                               className={cn(
-                                'rounded-md border border-white/10 bg-black/25 p-3 text-left transition hover:border-red-500/40',
+                                'min-w-0 rounded-md border border-white/10 bg-black/25 p-3 text-left transition hover:border-red-500/40',
                                 index === 0 && 'border-red-500/25',
                               )}
                             >
@@ -186,8 +189,8 @@ export function RecognitionTable({ rows, onRowsChange }: RecognitionTableProps) 
                                 {index === 0 ? 'Best Match' : 'Alternative Match'}
                               </p>
                               <p className="mt-1 truncate font-medium text-zinc-100">{suggestion.product.name}</p>
-                              <p className="mt-1 text-xs text-zinc-600">
-                                {Math.round(suggestion.score)}% · {suggestion.reason}
+                              <p className="mt-1 truncate text-xs text-zinc-600">
+                                {Math.round(suggestion.score)}% | {suggestion.reason}
                               </p>
                             </button>
                           ))}
@@ -208,7 +211,7 @@ export function RecognitionTable({ rows, onRowsChange }: RecognitionTableProps) 
       <div className="flex justify-end border-t border-white/[0.08] p-4">
         <Button onClick={addRow}>
           <Plus size={16} />
-          Add row
+          <span>Add row</span>
         </Button>
       </div>
     </div>

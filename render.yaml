@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: ordo
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: WHISPER_MODEL
+        value: tiny
+      - key: GEMINI_API_KEY
+        sync: false

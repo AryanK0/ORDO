@@ -29,6 +29,21 @@ class RecognitionRow(BaseModel):
     suggestions: list[MatchSuggestion] = Field(default_factory=list)
 
 
+class OrderSource(str, Enum):
+    handwritten = "handwritten"
+    audio = "audio"
+    live = "live"
+
+
+class UploadPageStatus(BaseModel):
+    id: str
+    fileName: str
+    status: str
+    lineCount: int = 0
+    rowCount: int = 0
+    message: str | None = None
+
+
 class ProcessedOrder(BaseModel):
     id: str
     fileName: str
@@ -36,6 +51,9 @@ class ProcessedOrder(BaseModel):
     productCount: int
     averageConfidence: int
     rows: list[RecognitionRow]
+    source: OrderSource = OrderSource.handwritten
+    transcript: str | None = None
+    pages: list[UploadPageStatus] = Field(default_factory=list)
     updatedWorkbookName: str | None = None
     orderedWorkbookName: str | None = None
 
@@ -77,3 +95,34 @@ class GeneratedOutput(BaseModel):
 class StructuredItem(BaseModel):
     text: str
     quantity: int = Field(default=1, ge=1)
+
+
+class OrderEventType(str, Enum):
+    add_product = "ADD_PRODUCT"
+    update_product = "UPDATE_PRODUCT"
+    remove_product = "REMOVE_PRODUCT"
+    increase_qty = "INCREASE_QTY"
+    decrease_qty = "DECREASE_QTY"
+
+
+class SmartOrderEvent(BaseModel):
+    event: OrderEventType
+    text: str
+    quantity: int = Field(default=1, ge=1)
+    rawText: str
+
+
+class LiveSessionRequest(BaseModel):
+    fileName: str = "Live Voice Order"
+
+
+class LiveTextRequest(BaseModel):
+    text: str
+    rows: list[RecognitionRow] = Field(default_factory=list)
+
+
+class LiveSessionResponse(BaseModel):
+    sessionId: str
+    transcript: str
+    order: ProcessedOrder
+    events: list[SmartOrderEvent] = Field(default_factory=list)

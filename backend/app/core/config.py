@@ -12,6 +12,7 @@ class Settings(BaseSettings):
     api_prefix: str = "/api"
     gemini_api_key: str | None = None
     gemini_model: str = "gemini-latest"
+    whisper_model: str = "tiny"
     master_workbook_path: Path = BACKEND_DIR / "data" / "master.xlsx"
     data_dir: Path = BACKEND_DIR / "data"
     cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173"

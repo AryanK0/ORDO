@@ -22,10 +22,6 @@ export function ProductCombobox({ value, onChange }: ProductComboboxProps) {
   })
 
   useEffect(() => {
-    if (!open) setQuery(value?.name ?? '')
-  }, [open, value?.name])
-
-  useEffect(() => {
     const close = (event: MouseEvent) => {
       if (!containerRef.current?.contains(event.target as Node)) setOpen(false)
     }
@@ -37,14 +33,17 @@ export function ProductCombobox({ value, onChange }: ProductComboboxProps) {
     <div className="relative min-w-[240px]" ref={containerRef}>
       <button
         type="button"
-        onClick={() => setOpen((next) => !next)}
+        onClick={() => {
+          setQuery(value?.name ?? '')
+          setOpen((next) => !next)
+        }}
         className="flex h-10 w-full items-center justify-between gap-2 rounded-md border border-white/10 bg-black/30 px-3 text-left text-sm text-zinc-100"
       >
         <span className="truncate">{value?.name ?? 'Select product'}</span>
         <ChevronsUpDown size={15} className="text-zinc-500" />
       </button>
       {open && (
-        <div className="absolute z-50 mt-2 w-[380px] rounded-lg border border-white/10 bg-zinc-950 p-2 shadow-2xl">
+        <div className="absolute z-50 mt-2 w-[min(380px,calc(100vw-2rem))] rounded-lg border border-white/10 bg-zinc-950 p-2 shadow-2xl">
           <div className="relative">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-zinc-600" size={15} />
             <Input

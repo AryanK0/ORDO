@@ -1,0 +1,14 @@
+.git
+.codex-temp
+backend/.venv
+backend/data/aliases.json
+backend/data/downloads
+backend/data/orders.json
+backend/data/products.json
+backend/data/uploads
+frontend/dist
+frontend/node_modules
+node_modules
+__pycache__
+*.pyc
+.env
