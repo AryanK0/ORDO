@@ -20,6 +20,7 @@ export function AppShell({ activePage, onNavigate, children }: AppShellProps) {
       <div className="noise pointer-events-none absolute inset-0 opacity-[0.12]" />
       <div className="relative flex min-h-svh">
         <Sidebar
+          className="hidden lg:flex"
           activePage={activePage}
           collapsed={collapsed}
           onNavigate={onNavigate}

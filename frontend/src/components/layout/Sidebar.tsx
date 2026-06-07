@@ -24,14 +24,16 @@ interface SidebarProps {
   collapsed: boolean
   onNavigate: (page: Page) => void
   onToggle: () => void
+  className?: string
 }
 
-export function Sidebar({ activePage, collapsed, onNavigate, onToggle }: SidebarProps) {
+export function Sidebar({ activePage, collapsed, onNavigate, onToggle, className }: SidebarProps) {
   return (
     <aside
       className={cn(
-        'hidden min-h-svh shrink-0 border-r border-white/[0.08] bg-black/45 p-4 backdrop-blur-xl transition-[width] duration-300 lg:flex lg:flex-col',
+        'flex min-h-svh shrink-0 flex-col border-r border-white/[0.08] bg-black/45 p-4 backdrop-blur-xl transition-[width] duration-300',
         collapsed ? 'w-20' : 'w-[280px]',
+        className
       )}
     >
       <div className="flex items-center justify-between gap-3">
