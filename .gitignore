@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+.env
+.codex-temp/
+backend/.venv/
+backend/data/uploads/
+backend/data/downloads/
+backend/data/orders.json
+backend/data/aliases.json
+backend/data/products.json
