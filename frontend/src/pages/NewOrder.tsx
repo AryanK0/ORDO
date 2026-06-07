@@ -387,7 +387,7 @@ export function NewOrder() {
       )}
 
       {mode === 'audio' && (
-        <div className="grid gap-5 xl:grid-cols-[45fr_55fr]">
+        <div className="flex flex-col gap-6">
           <UploadDropzone
             onFiles={handleAudioFiles}
             isProcessing={processAudio.isPending}
@@ -458,7 +458,7 @@ export function NewOrder() {
       )}
 
       {mode === 'live' && (
-        <div className="grid gap-5 xl:grid-cols-[42fr_58fr]">
+        <div className="flex flex-col gap-6">
           <Card className="p-4">
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
               <div>
@@ -517,13 +517,13 @@ export function NewOrder() {
       )}
 
       {activeOrder && mode !== 'live' && (
-        <div className="grid gap-5 xl:grid-cols-[45fr_55fr]">
-          <Card className="min-h-[520px] overflow-hidden">
+        <div className="flex flex-col gap-6">
+          <Card className="overflow-hidden">
             <div className="border-b border-white/[0.08] p-4">
               <h2 className="font-semibold text-white">Order source</h2>
               <p className="mt-1 truncate text-sm text-zinc-500">{activeOrder.fileName}</p>
             </div>
-            <div className="grid min-h-[450px] place-items-center bg-black/35 p-4">
+            <div className={`grid place-items-center bg-black/35 p-4 ${previewUrl && activeOrder.source === 'handwritten' ? 'min-h-[450px]' : 'py-8'}`}>
               {previewUrl && activeOrder.source === 'handwritten' ? (
                 <img
                   className="max-h-[640px] w-full rounded-md object-contain"
@@ -534,7 +534,7 @@ export function NewOrder() {
                 <div className="max-w-md text-center text-sm leading-6 text-zinc-500">
                   {activeOrder.source === 'audio'
                     ? 'Audio transcript and detected products are available in the transcript and review panels.'
-                    : 'PDF uploaded. OCR results are available in the table.'}
+                    : 'PDF uploaded. OCR results are available in the table below.'}
                 </div>
               )}
             </div>

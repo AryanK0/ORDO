@@ -20,7 +20,8 @@ body {
   min-width: 320px;
   min-height: 100svh;
   margin: 0;
-  background: #080808;
+  background: radial-gradient(circle at top right, #1f0b0b, #080808 60%);
+  background-attachment: fixed;
 }
 
 button,
