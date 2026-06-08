@@ -228,19 +228,21 @@ def process_order(files: list[UploadFile] = File(...)) -> ProcessedOrder:
         page_id = str(uuid.uuid4())
         lines = services.ocr.extract_text(target, upload.filename)
         if not lines:
-            lines = services.gemini.extract_file_lines(target)
-        if not lines:
+            structured_items = services.gemini.extract_file_items(target, services.catalog)
+        else:
+            structured_items = services.gemini.structure(lines, services.catalog)
+
+        if not structured_items:
             pages.append(
                 UploadPageStatus(
                     id=page_id,
                     fileName=upload.filename or "order",
                     status="failed",
-                    message="No order lines detected.",
+                    message="No order items detected.",
                 )
             )
             continue
 
-        structured_items = services.gemini.structure(lines)
         page_rows = services.event_processor.items_to_rows(structured_items)
         all_rows.extend(page_rows)
         pages.append(

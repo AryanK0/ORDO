@@ -3,6 +3,7 @@ from pathlib import Path
 import re
 
 from app.models.schemas import StructuredItem
+from app.matching.catalog import ProductCatalog
 
 
 class GeminiValidator:
@@ -10,7 +11,7 @@ class GeminiValidator:
         self.api_key = api_key
         self.model = model
 
-    def structure(self, lines: list[str]) -> list[StructuredItem]:
+    def structure(self, lines: list[str], catalog: ProductCatalog | None = None) -> list[StructuredItem]:
         cleaned_lines = [line for line in lines if line.strip()]
         if not cleaned_lines:
             return []
@@ -21,11 +22,27 @@ class GeminiValidator:
 
             genai.configure(api_key=self.api_key)
             model = genai.GenerativeModel(self.model)
+            
+            catalog_prompt = ""
+            if catalog and catalog.products:
+                catalog_json = json.dumps([
+                    {"id": p.id, "name": p.name, "pack": p.pack} 
+                    for p in catalog.products
+                ])
+                catalog_prompt = (
+                    "You also have access to the master product catalog in JSON format below.\n"
+                    "For each extracted item, identify the exact matching product from the catalog. "
+                    "Include its ID in the output as the key `catalogId`. "
+                    "If you are not absolutely sure about a match, set `catalogId` to null.\n"
+                    f"Catalog:\n{catalog_json}\n\n"
+                )
+
             prompt = (
                 "Extract pharmaceutical order items as a JSON array. Each item must "
-                "contain text and quantity. Ignore HSN, GST, MRP, rate, discount, "
+                "contain `text` and `quantity`. Ignore HSN, GST, MRP, rate, discount, "
                 "serial numbers, totals, and addresses. Quantity means ordered quantity only. "
                 "Return JSON only.\n\n"
+                + catalog_prompt
                 + "\n".join(cleaned_lines)
             )
             response = model.generate_content(prompt)
@@ -34,7 +51,7 @@ class GeminiValidator:
         except Exception:
             return [self._parse_line(line) for line in cleaned_lines]
 
-    def extract_file_lines(self, file_path: Path) -> list[str]:
+    def extract_file_items(self, file_path: Path, catalog: ProductCatalog | None = None) -> list[StructuredItem]:
         if not self.api_key:
             return []
         try:
@@ -43,20 +60,34 @@ class GeminiValidator:
             genai.configure(api_key=self.api_key)
             uploaded = genai.upload_file(str(file_path))
             model = genai.GenerativeModel(self.model)
+            
+            catalog_prompt = ""
+            if catalog and catalog.products:
+                catalog_json = json.dumps([
+                    {"id": p.id, "name": p.name, "pack": p.pack} 
+                    for p in catalog.products
+                ])
+                catalog_prompt = (
+                    "For each extracted item, identify the exact matching product from the catalog below. "
+                    "Include its ID in the output as the key `catalogId`. "
+                    "If you are not absolutely sure about a match, set `catalogId` to null.\n"
+                    f"Catalog:\n{catalog_json}"
+                )
+
             response = model.generate_content(
                 [
                     uploaded,
                     (
                         "Read this pharmaceutical purchase/order document. Return JSON only as an "
-                        "array of objects with keys text and quantity. text is the product name or "
-                        "abbreviation as written. quantity is the ordered quantity. Do not use HSN, "
-                        "GST, MRP, rate, amount, serial number, pack size, or totals as quantity."
+                        "array of objects with keys `text` and `quantity`. `text` is the product name or "
+                        "abbreviation as written. `quantity` is the ordered quantity. Do not use HSN, "
+                        "GST, MRP, rate, amount, serial number, pack size, or totals as quantity.\n\n"
+                        + catalog_prompt
                     ),
                 ]
             )
             parsed = self._loads_json(response.text or "[]")
-            items = [StructuredItem.model_validate(item) for item in parsed]
-            return [f"{item.text} {item.quantity}" for item in items if item.text.strip()]
+            return [StructuredItem.model_validate(item) for item in parsed if str(item.get("text", "")).strip()]
         except Exception:
             return []
 

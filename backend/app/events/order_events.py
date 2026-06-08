@@ -213,7 +213,21 @@ class OrderEventProcessor:
     def items_to_rows(self, items: list[StructuredItem]) -> list[RecognitionRow]:
         rows: list[RecognitionRow] = []
         for item in items:
-            product, score, suggestions = self.matcher.best(item.text)
+            product = None
+            score = 0
+            suggestions = []
+            
+            if item.catalogId:
+                for cat_product in self.matcher.catalog.products:
+                    if cat_product.id == item.catalogId:
+                        product = cat_product
+                        score = 100
+                        suggestions = [MatchSuggestion(product=product, score=100, reason="LLM catalog match")]
+                        break
+                        
+            if not product:
+                product, score, suggestions = self.matcher.best(item.text)
+                
             rows.append(
                 RecognitionRow(
                     id=str(uuid.uuid4()),

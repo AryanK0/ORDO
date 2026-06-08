@@ -95,6 +95,7 @@ class GeneratedOutput(BaseModel):
 class StructuredItem(BaseModel):
     text: str
     quantity: int = Field(default=1, ge=1)
+    catalogId: str | None = None
 
 
 class OrderEventType(str, Enum):
