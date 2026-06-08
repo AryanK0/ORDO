@@ -30,18 +30,17 @@ class GeminiValidator:
                     for p in catalog.products
                 ])
                 catalog_prompt = (
-                    "You also have access to the master product catalog in JSON format below.\n"
-                    "For each extracted item, identify the exact matching product from the catalog. "
-                    "Include its ID in the output as the key `catalogId`. "
-                    "If you are not absolutely sure about a match, set `catalogId` to null.\n"
+                    "You MUST map each extracted item to a product from the following catalog.\n"
+                    "Your JSON output for each item MUST have three keys: `text`, `quantity`, and `catalogId`.\n"
+                    "`catalogId` MUST be the exact ID of the matching product from the catalog below.\n"
+                    "If no match exists, set `catalogId` to null.\n"
                     f"Catalog:\n{catalog_json}\n\n"
                 )
 
             prompt = (
-                "Extract pharmaceutical order items as a JSON array. Each item must "
-                "contain `text` and `quantity`. Ignore HSN, GST, MRP, rate, discount, "
-                "serial numbers, totals, and addresses. Quantity means ordered quantity only. "
-                "Return JSON only.\n\n"
+                "Extract pharmaceutical order items as a JSON array. Each object MUST contain `text`, `quantity`, and `catalogId`. "
+                "Ignore HSN, GST, MRP, rate, discount, serial numbers, totals, and addresses. Quantity means ordered quantity only. "
+                "Return JSON array only.\n\n"
                 + catalog_prompt
                 + "\n".join(cleaned_lines)
             )
@@ -68,10 +67,11 @@ class GeminiValidator:
                     for p in catalog.products
                 ])
                 catalog_prompt = (
-                    "For each extracted item, identify the exact matching product from the catalog below. "
-                    "Include its ID in the output as the key `catalogId`. "
-                    "If you are not absolutely sure about a match, set `catalogId` to null.\n"
-                    f"Catalog:\n{catalog_json}"
+                    "You MUST map each extracted item to a product from the following catalog.\n"
+                    "Your JSON output for each item MUST have three keys: `text`, `quantity`, and `catalogId`.\n"
+                    "`catalogId` MUST be the exact ID of the matching product from the catalog below.\n"
+                    "If no match exists, set `catalogId` to null.\n"
+                    f"Catalog:\n{catalog_json}\n\n"
                 )
 
             response = model.generate_content(
@@ -79,7 +79,7 @@ class GeminiValidator:
                     uploaded,
                     (
                         "Read this pharmaceutical purchase/order document. Return JSON only as an "
-                        "array of objects with keys `text` and `quantity`. `text` is the product name or "
+                        "array of objects. Each object MUST contain keys `text`, `quantity`, and `catalogId`. `text` is the product name or "
                         "abbreviation as written. `quantity` is the ordered quantity. Do not use HSN, "
                         "GST, MRP, rate, amount, serial number, pack size, or totals as quantity.\n\n"
                         + catalog_prompt

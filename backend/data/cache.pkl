@@ -1,0 +1,5816 @@
+[
+  {
+    "id": "azithral-50-1",
+    "name": "Azithral 50",
+    "pack": "15 TAB",
+    "rate": 36.7,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 2
+  },
+  {
+    "id": "dolo-50-2",
+    "name": "Dolo 50",
+    "pack": "10 CAP",
+    "rate": 41.4,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 3
+  },
+  {
+    "id": "pantocid-50-3",
+    "name": "Pantocid 50",
+    "pack": "30 TAB",
+    "rate": 46.1,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 4
+  },
+  {
+    "id": "augmentin-50-4",
+    "name": "Augmentin 50",
+    "pack": "100 ML",
+    "rate": 50.8,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 5
+  },
+  {
+    "id": "cetrizine-50-5",
+    "name": "Cetrizine 50",
+    "pack": "60 ML",
+    "rate": 55.5,
+    "gst": 5.0,
+    "company": "Mankind",
+    "workbookRow": 6
+  },
+  {
+    "id": "metformin-50-6",
+    "name": "Metformin 50",
+    "pack": "1 VIAL",
+    "rate": 60.2,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 7
+  },
+  {
+    "id": "telma-50-7",
+    "name": "Telma 50",
+    "pack": "10 TAB",
+    "rate": 64.9,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 8
+  },
+  {
+    "id": "amlong-50-8",
+    "name": "Amlong 50",
+    "pack": "15 TAB",
+    "rate": 69.6,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 9
+  },
+  {
+    "id": "shelcal-50-9",
+    "name": "Shelcal 50",
+    "pack": "10 CAP",
+    "rate": 74.3,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 10
+  },
+  {
+    "id": "zincovit-50-10",
+    "name": "Zincovit 50",
+    "pack": "30 TAB",
+    "rate": 79.0,
+    "gst": 5.0,
+    "company": "Abbott",
+    "workbookRow": 11
+  },
+  {
+    "id": "rantac-50-11",
+    "name": "Rantac 50",
+    "pack": "100 ML",
+    "rate": 83.7,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 12
+  },
+  {
+    "id": "montair-50-12",
+    "name": "Montair 50",
+    "pack": "60 ML",
+    "rate": 88.4,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 13
+  },
+  {
+    "id": "pan-50-13",
+    "name": "Pan 50",
+    "pack": "1 VIAL",
+    "rate": 93.1,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 14
+  },
+  {
+    "id": "allegra-50-14",
+    "name": "Allegra 50",
+    "pack": "10 TAB",
+    "rate": 97.8,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 15
+  },
+  {
+    "id": "calpol-50-15",
+    "name": "Calpol 50",
+    "pack": "15 TAB",
+    "rate": 102.5,
+    "gst": 5.0,
+    "company": "Torrent",
+    "workbookRow": 16
+  },
+  {
+    "id": "meftal-50-16",
+    "name": "Meftal 50",
+    "pack": "10 CAP",
+    "rate": 107.2,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 17
+  },
+  {
+    "id": "ecosprin-50-17",
+    "name": "Ecosprin 50",
+    "pack": "30 TAB",
+    "rate": 111.9,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 18
+  },
+  {
+    "id": "thyronorm-50-18",
+    "name": "Thyronorm 50",
+    "pack": "100 ML",
+    "rate": 116.6,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 19
+  },
+  {
+    "id": "liv-50-19",
+    "name": "Liv 50",
+    "pack": "60 ML",
+    "rate": 121.3,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 20
+  },
+  {
+    "id": "becosules-50-20",
+    "name": "Becosules 50",
+    "pack": "1 VIAL",
+    "rate": 126.0,
+    "gst": 5.0,
+    "company": "Glenmark",
+    "workbookRow": 21
+  },
+  {
+    "id": "clavam-50-21",
+    "name": "Clavam 50",
+    "pack": "10 TAB",
+    "rate": 130.7,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 22
+  },
+  {
+    "id": "taxim-50-22",
+    "name": "Taxim 50",
+    "pack": "15 TAB",
+    "rate": 135.4,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 23
+  },
+  {
+    "id": "omez-50-23",
+    "name": "Omez 50",
+    "pack": "10 CAP",
+    "rate": 140.1,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 24
+  },
+  {
+    "id": "rosuvas-50-24",
+    "name": "Rosuvas 50",
+    "pack": "30 TAB",
+    "rate": 144.8,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 25
+  },
+  {
+    "id": "atorva-50-25",
+    "name": "Atorva 50",
+    "pack": "100 ML",
+    "rate": 149.5,
+    "gst": 5.0,
+    "company": "Sun Pharma",
+    "workbookRow": 26
+  },
+  {
+    "id": "glycomet-50-26",
+    "name": "Glycomet 50",
+    "pack": "60 ML",
+    "rate": 154.2,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 27
+  },
+  {
+    "id": "istamet-50-27",
+    "name": "Istamet 50",
+    "pack": "1 VIAL",
+    "rate": 158.9,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 28
+  },
+  {
+    "id": "janumet-50-28",
+    "name": "Janumet 50",
+    "pack": "10 TAB",
+    "rate": 163.6,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 29
+  },
+  {
+    "id": "telmikind-50-29",
+    "name": "Telmikind 50",
+    "pack": "15 TAB",
+    "rate": 168.3,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 30
+  },
+  {
+    "id": "olmezest-50-30",
+    "name": "Olmezest 50",
+    "pack": "10 CAP",
+    "rate": 173.0,
+    "gst": 5.0,
+    "company": "Dr Reddy",
+    "workbookRow": 31
+  },
+  {
+    "id": "aciloc-50-31",
+    "name": "Aciloc 50",
+    "pack": "30 TAB",
+    "rate": 177.7,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 32
+  },
+  {
+    "id": "nexpro-50-32",
+    "name": "Nexpro 50",
+    "pack": "100 ML",
+    "rate": 182.4,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 33
+  },
+  {
+    "id": "montek-50-33",
+    "name": "Montek 50",
+    "pack": "60 ML",
+    "rate": 187.1,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 34
+  },
+  {
+    "id": "deriphyllin-50-34",
+    "name": "Deriphyllin 50",
+    "pack": "1 VIAL",
+    "rate": 191.8,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 35
+  },
+  {
+    "id": "sinarest-50-35",
+    "name": "Sinarest 50",
+    "pack": "10 TAB",
+    "rate": 196.5,
+    "gst": 5.0,
+    "company": "Alkem",
+    "workbookRow": 36
+  },
+  {
+    "id": "combiflam-50-36",
+    "name": "Combiflam 50",
+    "pack": "15 TAB",
+    "rate": 201.2,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 37
+  },
+  {
+    "id": "emeset-50-37",
+    "name": "Emeset 50",
+    "pack": "10 CAP",
+    "rate": 205.9,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 38
+  },
+  {
+    "id": "ondem-50-38",
+    "name": "Ondem 50",
+    "pack": "30 TAB",
+    "rate": 210.6,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 39
+  },
+  {
+    "id": "cyclopam-50-39",
+    "name": "Cyclopam 50",
+    "pack": "100 ML",
+    "rate": 215.3,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 40
+  },
+  {
+    "id": "sporlac-50-40",
+    "name": "Sporlac 50",
+    "pack": "60 ML",
+    "rate": 220.0,
+    "gst": 5.0,
+    "company": "Cipla",
+    "workbookRow": 41
+  },
+  {
+    "id": "azithral-75-41",
+    "name": "Azithral 75",
+    "pack": "1 VIAL",
+    "rate": 224.7,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 42
+  },
+  {
+    "id": "dolo-75-42",
+    "name": "Dolo 75",
+    "pack": "10 TAB",
+    "rate": 229.4,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 43
+  },
+  {
+    "id": "pantocid-75-43",
+    "name": "Pantocid 75",
+    "pack": "15 TAB",
+    "rate": 234.1,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 44
+  },
+  {
+    "id": "augmentin-75-44",
+    "name": "Augmentin 75",
+    "pack": "10 CAP",
+    "rate": 238.8,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 45
+  },
+  {
+    "id": "cetrizine-75-45",
+    "name": "Cetrizine 75",
+    "pack": "30 TAB",
+    "rate": 243.5,
+    "gst": 5.0,
+    "company": "Mankind",
+    "workbookRow": 46
+  },
+  {
+    "id": "metformin-75-46",
+    "name": "Metformin 75",
+    "pack": "100 ML",
+    "rate": 248.2,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 47
+  },
+  {
+    "id": "telma-75-47",
+    "name": "Telma 75",
+    "pack": "60 ML",
+    "rate": 252.9,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 48
+  },
+  {
+    "id": "amlong-75-48",
+    "name": "Amlong 75",
+    "pack": "1 VIAL",
+    "rate": 257.6,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 49
+  },
+  {
+    "id": "shelcal-75-49",
+    "name": "Shelcal 75",
+    "pack": "10 TAB",
+    "rate": 262.3,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 50
+  },
+  {
+    "id": "zincovit-75-50",
+    "name": "Zincovit 75",
+    "pack": "15 TAB",
+    "rate": 267.0,
+    "gst": 5.0,
+    "company": "Abbott",
+    "workbookRow": 51
+  },
+  {
+    "id": "rantac-75-51",
+    "name": "Rantac 75",
+    "pack": "10 CAP",
+    "rate": 271.7,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 52
+  },
+  {
+    "id": "montair-75-52",
+    "name": "Montair 75",
+    "pack": "30 TAB",
+    "rate": 276.4,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 53
+  },
+  {
+    "id": "pan-75-53",
+    "name": "Pan 75",
+    "pack": "100 ML",
+    "rate": 281.1,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 54
+  },
+  {
+    "id": "allegra-75-54",
+    "name": "Allegra 75",
+    "pack": "60 ML",
+    "rate": 285.8,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 55
+  },
+  {
+    "id": "calpol-75-55",
+    "name": "Calpol 75",
+    "pack": "1 VIAL",
+    "rate": 290.5,
+    "gst": 5.0,
+    "company": "Torrent",
+    "workbookRow": 56
+  },
+  {
+    "id": "meftal-75-56",
+    "name": "Meftal 75",
+    "pack": "10 TAB",
+    "rate": 295.2,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 57
+  },
+  {
+    "id": "ecosprin-75-57",
+    "name": "Ecosprin 75",
+    "pack": "15 TAB",
+    "rate": 299.9,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 58
+  },
+  {
+    "id": "thyronorm-75-58",
+    "name": "Thyronorm 75",
+    "pack": "10 CAP",
+    "rate": 304.6,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 59
+  },
+  {
+    "id": "liv-75-59",
+    "name": "Liv 75",
+    "pack": "30 TAB",
+    "rate": 309.3,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 60
+  },
+  {
+    "id": "becosules-75-60",
+    "name": "Becosules 75",
+    "pack": "100 ML",
+    "rate": 314.0,
+    "gst": 5.0,
+    "company": "Glenmark",
+    "workbookRow": 61
+  },
+  {
+    "id": "clavam-75-61",
+    "name": "Clavam 75",
+    "pack": "60 ML",
+    "rate": 318.7,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 62
+  },
+  {
+    "id": "taxim-75-62",
+    "name": "Taxim 75",
+    "pack": "1 VIAL",
+    "rate": 323.4,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 63
+  },
+  {
+    "id": "omez-75-63",
+    "name": "Omez 75",
+    "pack": "10 TAB",
+    "rate": 328.1,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 64
+  },
+  {
+    "id": "rosuvas-75-64",
+    "name": "Rosuvas 75",
+    "pack": "15 TAB",
+    "rate": 332.8,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 65
+  },
+  {
+    "id": "atorva-75-65",
+    "name": "Atorva 75",
+    "pack": "10 CAP",
+    "rate": 337.5,
+    "gst": 5.0,
+    "company": "Sun Pharma",
+    "workbookRow": 66
+  },
+  {
+    "id": "glycomet-75-66",
+    "name": "Glycomet 75",
+    "pack": "30 TAB",
+    "rate": 342.2,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 67
+  },
+  {
+    "id": "istamet-75-67",
+    "name": "Istamet 75",
+    "pack": "100 ML",
+    "rate": 346.9,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 68
+  },
+  {
+    "id": "janumet-75-68",
+    "name": "Janumet 75",
+    "pack": "60 ML",
+    "rate": 351.6,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 69
+  },
+  {
+    "id": "telmikind-75-69",
+    "name": "Telmikind 75",
+    "pack": "1 VIAL",
+    "rate": 356.3,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 70
+  },
+  {
+    "id": "olmezest-75-70",
+    "name": "Olmezest 75",
+    "pack": "10 TAB",
+    "rate": 361.0,
+    "gst": 5.0,
+    "company": "Dr Reddy",
+    "workbookRow": 71
+  },
+  {
+    "id": "aciloc-75-71",
+    "name": "Aciloc 75",
+    "pack": "15 TAB",
+    "rate": 365.7,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 72
+  },
+  {
+    "id": "nexpro-75-72",
+    "name": "Nexpro 75",
+    "pack": "10 CAP",
+    "rate": 370.4,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 73
+  },
+  {
+    "id": "montek-75-73",
+    "name": "Montek 75",
+    "pack": "30 TAB",
+    "rate": 375.1,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 74
+  },
+  {
+    "id": "deriphyllin-75-74",
+    "name": "Deriphyllin 75",
+    "pack": "100 ML",
+    "rate": 379.8,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 75
+  },
+  {
+    "id": "sinarest-75-75",
+    "name": "Sinarest 75",
+    "pack": "60 ML",
+    "rate": 384.5,
+    "gst": 5.0,
+    "company": "Alkem",
+    "workbookRow": 76
+  },
+  {
+    "id": "combiflam-75-76",
+    "name": "Combiflam 75",
+    "pack": "1 VIAL",
+    "rate": 389.2,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 77
+  },
+  {
+    "id": "emeset-75-77",
+    "name": "Emeset 75",
+    "pack": "10 TAB",
+    "rate": 393.9,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 78
+  },
+  {
+    "id": "ondem-75-78",
+    "name": "Ondem 75",
+    "pack": "15 TAB",
+    "rate": 398.6,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 79
+  },
+  {
+    "id": "cyclopam-75-79",
+    "name": "Cyclopam 75",
+    "pack": "10 CAP",
+    "rate": 403.3,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 80
+  },
+  {
+    "id": "sporlac-75-80",
+    "name": "Sporlac 75",
+    "pack": "30 TAB",
+    "rate": 408.0,
+    "gst": 5.0,
+    "company": "Cipla",
+    "workbookRow": 81
+  },
+  {
+    "id": "azithral-100-81",
+    "name": "Azithral 100",
+    "pack": "100 ML",
+    "rate": 412.7,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 82
+  },
+  {
+    "id": "dolo-100-82",
+    "name": "Dolo 100",
+    "pack": "60 ML",
+    "rate": 417.4,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 83
+  },
+  {
+    "id": "pantocid-100-83",
+    "name": "Pantocid 100",
+    "pack": "1 VIAL",
+    "rate": 422.1,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 84
+  },
+  {
+    "id": "augmentin-100-84",
+    "name": "Augmentin 100",
+    "pack": "10 TAB",
+    "rate": 426.8,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 85
+  },
+  {
+    "id": "cetrizine-100-85",
+    "name": "Cetrizine 100",
+    "pack": "15 TAB",
+    "rate": 431.5,
+    "gst": 5.0,
+    "company": "Mankind",
+    "workbookRow": 86
+  },
+  {
+    "id": "metformin-100-86",
+    "name": "Metformin 100",
+    "pack": "10 CAP",
+    "rate": 436.2,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 87
+  },
+  {
+    "id": "telma-100-87",
+    "name": "Telma 100",
+    "pack": "30 TAB",
+    "rate": 440.9,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 88
+  },
+  {
+    "id": "amlong-100-88",
+    "name": "Amlong 100",
+    "pack": "100 ML",
+    "rate": 445.6,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 89
+  },
+  {
+    "id": "shelcal-100-89",
+    "name": "Shelcal 100",
+    "pack": "60 ML",
+    "rate": 450.3,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 90
+  },
+  {
+    "id": "zincovit-100-90",
+    "name": "Zincovit 100",
+    "pack": "1 VIAL",
+    "rate": 455.0,
+    "gst": 5.0,
+    "company": "Abbott",
+    "workbookRow": 91
+  },
+  {
+    "id": "rantac-100-91",
+    "name": "Rantac 100",
+    "pack": "10 TAB",
+    "rate": 459.7,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 92
+  },
+  {
+    "id": "montair-100-92",
+    "name": "Montair 100",
+    "pack": "15 TAB",
+    "rate": 464.4,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 93
+  },
+  {
+    "id": "pan-100-93",
+    "name": "Pan 100",
+    "pack": "10 CAP",
+    "rate": 469.1,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 94
+  },
+  {
+    "id": "allegra-100-94",
+    "name": "Allegra 100",
+    "pack": "30 TAB",
+    "rate": 473.8,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 95
+  },
+  {
+    "id": "calpol-100-95",
+    "name": "Calpol 100",
+    "pack": "100 ML",
+    "rate": 478.5,
+    "gst": 5.0,
+    "company": "Torrent",
+    "workbookRow": 96
+  },
+  {
+    "id": "meftal-100-96",
+    "name": "Meftal 100",
+    "pack": "60 ML",
+    "rate": 483.2,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 97
+  },
+  {
+    "id": "ecosprin-100-97",
+    "name": "Ecosprin 100",
+    "pack": "1 VIAL",
+    "rate": 487.9,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 98
+  },
+  {
+    "id": "thyronorm-100-98",
+    "name": "Thyronorm 100",
+    "pack": "10 TAB",
+    "rate": 492.6,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 99
+  },
+  {
+    "id": "liv-100-99",
+    "name": "Liv 100",
+    "pack": "15 TAB",
+    "rate": 497.3,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 100
+  },
+  {
+    "id": "becosules-100-100",
+    "name": "Becosules 100",
+    "pack": "10 CAP",
+    "rate": 502.0,
+    "gst": 5.0,
+    "company": "Glenmark",
+    "workbookRow": 101
+  },
+  {
+    "id": "clavam-100-101",
+    "name": "Clavam 100",
+    "pack": "30 TAB",
+    "rate": 506.7,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 102
+  },
+  {
+    "id": "taxim-100-102",
+    "name": "Taxim 100",
+    "pack": "100 ML",
+    "rate": 511.4,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 103
+  },
+  {
+    "id": "omez-100-103",
+    "name": "Omez 100",
+    "pack": "60 ML",
+    "rate": 516.1,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 104
+  },
+  {
+    "id": "rosuvas-100-104",
+    "name": "Rosuvas 100",
+    "pack": "1 VIAL",
+    "rate": 520.8,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 105
+  },
+  {
+    "id": "atorva-100-105",
+    "name": "Atorva 100",
+    "pack": "10 TAB",
+    "rate": 525.5,
+    "gst": 5.0,
+    "company": "Sun Pharma",
+    "workbookRow": 106
+  },
+  {
+    "id": "glycomet-100-106",
+    "name": "Glycomet 100",
+    "pack": "15 TAB",
+    "rate": 530.2,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 107
+  },
+  {
+    "id": "istamet-100-107",
+    "name": "Istamet 100",
+    "pack": "10 CAP",
+    "rate": 534.9,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 108
+  },
+  {
+    "id": "janumet-100-108",
+    "name": "Janumet 100",
+    "pack": "30 TAB",
+    "rate": 539.6,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 109
+  },
+  {
+    "id": "telmikind-100-109",
+    "name": "Telmikind 100",
+    "pack": "100 ML",
+    "rate": 544.3,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 110
+  },
+  {
+    "id": "olmezest-100-110",
+    "name": "Olmezest 100",
+    "pack": "60 ML",
+    "rate": 549.0,
+    "gst": 5.0,
+    "company": "Dr Reddy",
+    "workbookRow": 111
+  },
+  {
+    "id": "aciloc-100-111",
+    "name": "Aciloc 100",
+    "pack": "1 VIAL",
+    "rate": 553.7,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 112
+  },
+  {
+    "id": "nexpro-100-112",
+    "name": "Nexpro 100",
+    "pack": "10 TAB",
+    "rate": 558.4,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 113
+  },
+  {
+    "id": "montek-100-113",
+    "name": "Montek 100",
+    "pack": "15 TAB",
+    "rate": 563.1,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 114
+  },
+  {
+    "id": "deriphyllin-100-114",
+    "name": "Deriphyllin 100",
+    "pack": "10 CAP",
+    "rate": 567.8,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 115
+  },
+  {
+    "id": "sinarest-100-115",
+    "name": "Sinarest 100",
+    "pack": "30 TAB",
+    "rate": 572.5,
+    "gst": 5.0,
+    "company": "Alkem",
+    "workbookRow": 116
+  },
+  {
+    "id": "combiflam-100-116",
+    "name": "Combiflam 100",
+    "pack": "100 ML",
+    "rate": 577.2,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 117
+  },
+  {
+    "id": "emeset-100-117",
+    "name": "Emeset 100",
+    "pack": "60 ML",
+    "rate": 581.9,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 118
+  },
+  {
+    "id": "ondem-100-118",
+    "name": "Ondem 100",
+    "pack": "1 VIAL",
+    "rate": 586.6,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 119
+  },
+  {
+    "id": "cyclopam-100-119",
+    "name": "Cyclopam 100",
+    "pack": "10 TAB",
+    "rate": 591.3,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 120
+  },
+  {
+    "id": "sporlac-100-120",
+    "name": "Sporlac 100",
+    "pack": "15 TAB",
+    "rate": 596.0,
+    "gst": 5.0,
+    "company": "Cipla",
+    "workbookRow": 121
+  },
+  {
+    "id": "azithral-120-121",
+    "name": "Azithral 120",
+    "pack": "10 CAP",
+    "rate": 600.7,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 122
+  },
+  {
+    "id": "dolo-120-122",
+    "name": "Dolo 120",
+    "pack": "30 TAB",
+    "rate": 605.4,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 123
+  },
+  {
+    "id": "pantocid-120-123",
+    "name": "Pantocid 120",
+    "pack": "100 ML",
+    "rate": 610.1,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 124
+  },
+  {
+    "id": "augmentin-120-124",
+    "name": "Augmentin 120",
+    "pack": "60 ML",
+    "rate": 614.8,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 125
+  },
+  {
+    "id": "cetrizine-120-125",
+    "name": "Cetrizine 120",
+    "pack": "1 VIAL",
+    "rate": 619.5,
+    "gst": 5.0,
+    "company": "Mankind",
+    "workbookRow": 126
+  },
+  {
+    "id": "metformin-120-126",
+    "name": "Metformin 120",
+    "pack": "10 TAB",
+    "rate": 624.2,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 127
+  },
+  {
+    "id": "telma-120-127",
+    "name": "Telma 120",
+    "pack": "15 TAB",
+    "rate": 628.9,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 128
+  },
+  {
+    "id": "amlong-120-128",
+    "name": "Amlong 120",
+    "pack": "10 CAP",
+    "rate": 633.6,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 129
+  },
+  {
+    "id": "shelcal-120-129",
+    "name": "Shelcal 120",
+    "pack": "30 TAB",
+    "rate": 638.3,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 130
+  },
+  {
+    "id": "zincovit-120-130",
+    "name": "Zincovit 120",
+    "pack": "100 ML",
+    "rate": 643.0,
+    "gst": 5.0,
+    "company": "Abbott",
+    "workbookRow": 131
+  },
+  {
+    "id": "rantac-120-131",
+    "name": "Rantac 120",
+    "pack": "60 ML",
+    "rate": 647.7,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 132
+  },
+  {
+    "id": "montair-120-132",
+    "name": "Montair 120",
+    "pack": "1 VIAL",
+    "rate": 652.4,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 133
+  },
+  {
+    "id": "pan-120-133",
+    "name": "Pan 120",
+    "pack": "10 TAB",
+    "rate": 657.1,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 134
+  },
+  {
+    "id": "allegra-120-134",
+    "name": "Allegra 120",
+    "pack": "15 TAB",
+    "rate": 661.8,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 135
+  },
+  {
+    "id": "calpol-120-135",
+    "name": "Calpol 120",
+    "pack": "10 CAP",
+    "rate": 666.5,
+    "gst": 5.0,
+    "company": "Torrent",
+    "workbookRow": 136
+  },
+  {
+    "id": "meftal-120-136",
+    "name": "Meftal 120",
+    "pack": "30 TAB",
+    "rate": 671.2,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 137
+  },
+  {
+    "id": "ecosprin-120-137",
+    "name": "Ecosprin 120",
+    "pack": "100 ML",
+    "rate": 675.9,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 138
+  },
+  {
+    "id": "thyronorm-120-138",
+    "name": "Thyronorm 120",
+    "pack": "60 ML",
+    "rate": 680.6,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 139
+  },
+  {
+    "id": "liv-120-139",
+    "name": "Liv 120",
+    "pack": "1 VIAL",
+    "rate": 685.3,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 140
+  },
+  {
+    "id": "becosules-120-140",
+    "name": "Becosules 120",
+    "pack": "10 TAB",
+    "rate": 690.0,
+    "gst": 5.0,
+    "company": "Glenmark",
+    "workbookRow": 141
+  },
+  {
+    "id": "clavam-120-141",
+    "name": "Clavam 120",
+    "pack": "15 TAB",
+    "rate": 694.7,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 142
+  },
+  {
+    "id": "taxim-120-142",
+    "name": "Taxim 120",
+    "pack": "10 CAP",
+    "rate": 699.4,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 143
+  },
+  {
+    "id": "omez-120-143",
+    "name": "Omez 120",
+    "pack": "30 TAB",
+    "rate": 704.1,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 144
+  },
+  {
+    "id": "rosuvas-120-144",
+    "name": "Rosuvas 120",
+    "pack": "100 ML",
+    "rate": 708.8,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 145
+  },
+  {
+    "id": "atorva-120-145",
+    "name": "Atorva 120",
+    "pack": "60 ML",
+    "rate": 713.5,
+    "gst": 5.0,
+    "company": "Sun Pharma",
+    "workbookRow": 146
+  },
+  {
+    "id": "glycomet-120-146",
+    "name": "Glycomet 120",
+    "pack": "1 VIAL",
+    "rate": 718.2,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 147
+  },
+  {
+    "id": "istamet-120-147",
+    "name": "Istamet 120",
+    "pack": "10 TAB",
+    "rate": 722.9,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 148
+  },
+  {
+    "id": "janumet-120-148",
+    "name": "Janumet 120",
+    "pack": "15 TAB",
+    "rate": 727.6,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 149
+  },
+  {
+    "id": "telmikind-120-149",
+    "name": "Telmikind 120",
+    "pack": "10 CAP",
+    "rate": 732.3,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 150
+  },
+  {
+    "id": "olmezest-120-150",
+    "name": "Olmezest 120",
+    "pack": "30 TAB",
+    "rate": 737.0,
+    "gst": 5.0,
+    "company": "Dr Reddy",
+    "workbookRow": 151
+  },
+  {
+    "id": "aciloc-120-151",
+    "name": "Aciloc 120",
+    "pack": "100 ML",
+    "rate": 741.7,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 152
+  },
+  {
+    "id": "nexpro-120-152",
+    "name": "Nexpro 120",
+    "pack": "60 ML",
+    "rate": 746.4,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 153
+  },
+  {
+    "id": "montek-120-153",
+    "name": "Montek 120",
+    "pack": "1 VIAL",
+    "rate": 751.1,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 154
+  },
+  {
+    "id": "deriphyllin-120-154",
+    "name": "Deriphyllin 120",
+    "pack": "10 TAB",
+    "rate": 755.8,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 155
+  },
+  {
+    "id": "sinarest-120-155",
+    "name": "Sinarest 120",
+    "pack": "15 TAB",
+    "rate": 760.5,
+    "gst": 5.0,
+    "company": "Alkem",
+    "workbookRow": 156
+  },
+  {
+    "id": "combiflam-120-156",
+    "name": "Combiflam 120",
+    "pack": "10 CAP",
+    "rate": 765.2,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 157
+  },
+  {
+    "id": "emeset-120-157",
+    "name": "Emeset 120",
+    "pack": "30 TAB",
+    "rate": 769.9,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 158
+  },
+  {
+    "id": "ondem-120-158",
+    "name": "Ondem 120",
+    "pack": "100 ML",
+    "rate": 774.6,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 159
+  },
+  {
+    "id": "cyclopam-120-159",
+    "name": "Cyclopam 120",
+    "pack": "60 ML",
+    "rate": 779.3,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 160
+  },
+  {
+    "id": "sporlac-120-160",
+    "name": "Sporlac 120",
+    "pack": "1 VIAL",
+    "rate": 784.0,
+    "gst": 5.0,
+    "company": "Cipla",
+    "workbookRow": 161
+  },
+  {
+    "id": "azithral-150-161",
+    "name": "Azithral 150",
+    "pack": "10 TAB",
+    "rate": 788.7,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 162
+  },
+  {
+    "id": "dolo-150-162",
+    "name": "Dolo 150",
+    "pack": "15 TAB",
+    "rate": 793.4,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 163
+  },
+  {
+    "id": "pantocid-150-163",
+    "name": "Pantocid 150",
+    "pack": "10 CAP",
+    "rate": 798.1,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 164
+  },
+  {
+    "id": "augmentin-150-164",
+    "name": "Augmentin 150",
+    "pack": "30 TAB",
+    "rate": 802.8,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 165
+  },
+  {
+    "id": "cetrizine-150-165",
+    "name": "Cetrizine 150",
+    "pack": "100 ML",
+    "rate": 807.5,
+    "gst": 5.0,
+    "company": "Mankind",
+    "workbookRow": 166
+  },
+  {
+    "id": "metformin-150-166",
+    "name": "Metformin 150",
+    "pack": "60 ML",
+    "rate": 812.2,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 167
+  },
+  {
+    "id": "telma-150-167",
+    "name": "Telma 150",
+    "pack": "1 VIAL",
+    "rate": 816.9,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 168
+  },
+  {
+    "id": "amlong-150-168",
+    "name": "Amlong 150",
+    "pack": "10 TAB",
+    "rate": 821.6,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 169
+  },
+  {
+    "id": "shelcal-150-169",
+    "name": "Shelcal 150",
+    "pack": "15 TAB",
+    "rate": 826.3,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 170
+  },
+  {
+    "id": "zincovit-150-170",
+    "name": "Zincovit 150",
+    "pack": "10 CAP",
+    "rate": 831.0,
+    "gst": 5.0,
+    "company": "Abbott",
+    "workbookRow": 171
+  },
+  {
+    "id": "rantac-150-171",
+    "name": "Rantac 150",
+    "pack": "30 TAB",
+    "rate": 835.7,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 172
+  },
+  {
+    "id": "montair-150-172",
+    "name": "Montair 150",
+    "pack": "100 ML",
+    "rate": 840.4,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 173
+  },
+  {
+    "id": "pan-150-173",
+    "name": "Pan 150",
+    "pack": "60 ML",
+    "rate": 845.1,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 174
+  },
+  {
+    "id": "allegra-150-174",
+    "name": "Allegra 150",
+    "pack": "1 VIAL",
+    "rate": 849.8,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 175
+  },
+  {
+    "id": "calpol-150-175",
+    "name": "Calpol 150",
+    "pack": "10 TAB",
+    "rate": 854.5,
+    "gst": 5.0,
+    "company": "Torrent",
+    "workbookRow": 176
+  },
+  {
+    "id": "meftal-150-176",
+    "name": "Meftal 150",
+    "pack": "15 TAB",
+    "rate": 859.2,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 177
+  },
+  {
+    "id": "ecosprin-150-177",
+    "name": "Ecosprin 150",
+    "pack": "10 CAP",
+    "rate": 863.9,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 178
+  },
+  {
+    "id": "thyronorm-150-178",
+    "name": "Thyronorm 150",
+    "pack": "30 TAB",
+    "rate": 868.6,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 179
+  },
+  {
+    "id": "liv-150-179",
+    "name": "Liv 150",
+    "pack": "100 ML",
+    "rate": 873.3,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 180
+  },
+  {
+    "id": "becosules-150-180",
+    "name": "Becosules 150",
+    "pack": "60 ML",
+    "rate": 878.0,
+    "gst": 5.0,
+    "company": "Glenmark",
+    "workbookRow": 181
+  },
+  {
+    "id": "clavam-150-181",
+    "name": "Clavam 150",
+    "pack": "1 VIAL",
+    "rate": 882.7,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 182
+  },
+  {
+    "id": "taxim-150-182",
+    "name": "Taxim 150",
+    "pack": "10 TAB",
+    "rate": 887.4,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 183
+  },
+  {
+    "id": "omez-150-183",
+    "name": "Omez 150",
+    "pack": "15 TAB",
+    "rate": 892.1,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 184
+  },
+  {
+    "id": "rosuvas-150-184",
+    "name": "Rosuvas 150",
+    "pack": "10 CAP",
+    "rate": 896.8,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 185
+  },
+  {
+    "id": "atorva-150-185",
+    "name": "Atorva 150",
+    "pack": "30 TAB",
+    "rate": 901.5,
+    "gst": 5.0,
+    "company": "Sun Pharma",
+    "workbookRow": 186
+  },
+  {
+    "id": "glycomet-150-186",
+    "name": "Glycomet 150",
+    "pack": "100 ML",
+    "rate": 906.2,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 187
+  },
+  {
+    "id": "istamet-150-187",
+    "name": "Istamet 150",
+    "pack": "60 ML",
+    "rate": 910.9,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 188
+  },
+  {
+    "id": "janumet-150-188",
+    "name": "Janumet 150",
+    "pack": "1 VIAL",
+    "rate": 915.6,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 189
+  },
+  {
+    "id": "telmikind-150-189",
+    "name": "Telmikind 150",
+    "pack": "10 TAB",
+    "rate": 920.3,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 190
+  },
+  {
+    "id": "olmezest-150-190",
+    "name": "Olmezest 150",
+    "pack": "15 TAB",
+    "rate": 925.0,
+    "gst": 5.0,
+    "company": "Dr Reddy",
+    "workbookRow": 191
+  },
+  {
+    "id": "aciloc-150-191",
+    "name": "Aciloc 150",
+    "pack": "10 CAP",
+    "rate": 929.7,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 192
+  },
+  {
+    "id": "nexpro-150-192",
+    "name": "Nexpro 150",
+    "pack": "30 TAB",
+    "rate": 934.4,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 193
+  },
+  {
+    "id": "montek-150-193",
+    "name": "Montek 150",
+    "pack": "100 ML",
+    "rate": 939.1,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 194
+  },
+  {
+    "id": "deriphyllin-150-194",
+    "name": "Deriphyllin 150",
+    "pack": "60 ML",
+    "rate": 943.8,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 195
+  },
+  {
+    "id": "sinarest-150-195",
+    "name": "Sinarest 150",
+    "pack": "1 VIAL",
+    "rate": 948.5,
+    "gst": 5.0,
+    "company": "Alkem",
+    "workbookRow": 196
+  },
+  {
+    "id": "combiflam-150-196",
+    "name": "Combiflam 150",
+    "pack": "10 TAB",
+    "rate": 953.2,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 197
+  },
+  {
+    "id": "emeset-150-197",
+    "name": "Emeset 150",
+    "pack": "15 TAB",
+    "rate": 957.9,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 198
+  },
+  {
+    "id": "ondem-150-198",
+    "name": "Ondem 150",
+    "pack": "10 CAP",
+    "rate": 962.6,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 199
+  },
+  {
+    "id": "cyclopam-150-199",
+    "name": "Cyclopam 150",
+    "pack": "30 TAB",
+    "rate": 967.3,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 200
+  },
+  {
+    "id": "sporlac-150-200",
+    "name": "Sporlac 150",
+    "pack": "100 ML",
+    "rate": 972.0,
+    "gst": 5.0,
+    "company": "Cipla",
+    "workbookRow": 201
+  },
+  {
+    "id": "azithral-250-201",
+    "name": "Azithral 250",
+    "pack": "60 ML",
+    "rate": 976.7,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 202
+  },
+  {
+    "id": "dolo-250-202",
+    "name": "Dolo 250",
+    "pack": "1 VIAL",
+    "rate": 981.4,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 203
+  },
+  {
+    "id": "pantocid-250-203",
+    "name": "Pantocid 250",
+    "pack": "10 TAB",
+    "rate": 986.1,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 204
+  },
+  {
+    "id": "augmentin-250-204",
+    "name": "Augmentin 250",
+    "pack": "15 TAB",
+    "rate": 990.8,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 205
+  },
+  {
+    "id": "cetrizine-250-205",
+    "name": "Cetrizine 250",
+    "pack": "10 CAP",
+    "rate": 995.5,
+    "gst": 5.0,
+    "company": "Mankind",
+    "workbookRow": 206
+  },
+  {
+    "id": "metformin-250-206",
+    "name": "Metformin 250",
+    "pack": "30 TAB",
+    "rate": 1000.2,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 207
+  },
+  {
+    "id": "telma-250-207",
+    "name": "Telma 250",
+    "pack": "100 ML",
+    "rate": 1004.9,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 208
+  },
+  {
+    "id": "amlong-250-208",
+    "name": "Amlong 250",
+    "pack": "60 ML",
+    "rate": 1009.6,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 209
+  },
+  {
+    "id": "shelcal-250-209",
+    "name": "Shelcal 250",
+    "pack": "1 VIAL",
+    "rate": 1014.3,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 210
+  },
+  {
+    "id": "zincovit-250-210",
+    "name": "Zincovit 250",
+    "pack": "10 TAB",
+    "rate": 1019.0,
+    "gst": 5.0,
+    "company": "Abbott",
+    "workbookRow": 211
+  },
+  {
+    "id": "rantac-250-211",
+    "name": "Rantac 250",
+    "pack": "15 TAB",
+    "rate": 1023.7,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 212
+  },
+  {
+    "id": "montair-250-212",
+    "name": "Montair 250",
+    "pack": "10 CAP",
+    "rate": 1028.4,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 213
+  },
+  {
+    "id": "pan-250-213",
+    "name": "Pan 250",
+    "pack": "30 TAB",
+    "rate": 1033.1,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 214
+  },
+  {
+    "id": "allegra-250-214",
+    "name": "Allegra 250",
+    "pack": "100 ML",
+    "rate": 1037.8,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 215
+  },
+  {
+    "id": "calpol-250-215",
+    "name": "Calpol 250",
+    "pack": "60 ML",
+    "rate": 1042.5,
+    "gst": 5.0,
+    "company": "Torrent",
+    "workbookRow": 216
+  },
+  {
+    "id": "meftal-250-216",
+    "name": "Meftal 250",
+    "pack": "1 VIAL",
+    "rate": 1047.2,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 217
+  },
+  {
+    "id": "ecosprin-250-217",
+    "name": "Ecosprin 250",
+    "pack": "10 TAB",
+    "rate": 1051.9,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 218
+  },
+  {
+    "id": "thyronorm-250-218",
+    "name": "Thyronorm 250",
+    "pack": "15 TAB",
+    "rate": 1056.6,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 219
+  },
+  {
+    "id": "liv-250-219",
+    "name": "Liv 250",
+    "pack": "10 CAP",
+    "rate": 1061.3,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 220
+  },
+  {
+    "id": "becosules-250-220",
+    "name": "Becosules 250",
+    "pack": "30 TAB",
+    "rate": 1066.0,
+    "gst": 5.0,
+    "company": "Glenmark",
+    "workbookRow": 221
+  },
+  {
+    "id": "clavam-250-221",
+    "name": "Clavam 250",
+    "pack": "100 ML",
+    "rate": 1070.7,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 222
+  },
+  {
+    "id": "taxim-250-222",
+    "name": "Taxim 250",
+    "pack": "60 ML",
+    "rate": 1075.4,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 223
+  },
+  {
+    "id": "omez-250-223",
+    "name": "Omez 250",
+    "pack": "1 VIAL",
+    "rate": 1080.1,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 224
+  },
+  {
+    "id": "rosuvas-250-224",
+    "name": "Rosuvas 250",
+    "pack": "10 TAB",
+    "rate": 1084.8,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 225
+  },
+  {
+    "id": "atorva-250-225",
+    "name": "Atorva 250",
+    "pack": "15 TAB",
+    "rate": 1089.5,
+    "gst": 5.0,
+    "company": "Sun Pharma",
+    "workbookRow": 226
+  },
+  {
+    "id": "glycomet-250-226",
+    "name": "Glycomet 250",
+    "pack": "10 CAP",
+    "rate": 1094.2,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 227
+  },
+  {
+    "id": "istamet-250-227",
+    "name": "Istamet 250",
+    "pack": "30 TAB",
+    "rate": 1098.9,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 228
+  },
+  {
+    "id": "janumet-250-228",
+    "name": "Janumet 250",
+    "pack": "100 ML",
+    "rate": 1103.6,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 229
+  },
+  {
+    "id": "telmikind-250-229",
+    "name": "Telmikind 250",
+    "pack": "60 ML",
+    "rate": 1108.3,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 230
+  },
+  {
+    "id": "olmezest-250-230",
+    "name": "Olmezest 250",
+    "pack": "1 VIAL",
+    "rate": 1113.0,
+    "gst": 5.0,
+    "company": "Dr Reddy",
+    "workbookRow": 231
+  },
+  {
+    "id": "aciloc-250-231",
+    "name": "Aciloc 250",
+    "pack": "10 TAB",
+    "rate": 1117.7,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 232
+  },
+  {
+    "id": "nexpro-250-232",
+    "name": "Nexpro 250",
+    "pack": "15 TAB",
+    "rate": 1122.4,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 233
+  },
+  {
+    "id": "montek-250-233",
+    "name": "Montek 250",
+    "pack": "10 CAP",
+    "rate": 1127.1,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 234
+  },
+  {
+    "id": "deriphyllin-250-234",
+    "name": "Deriphyllin 250",
+    "pack": "30 TAB",
+    "rate": 1131.8,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 235
+  },
+  {
+    "id": "sinarest-250-235",
+    "name": "Sinarest 250",
+    "pack": "100 ML",
+    "rate": 1136.5,
+    "gst": 5.0,
+    "company": "Alkem",
+    "workbookRow": 236
+  },
+  {
+    "id": "combiflam-250-236",
+    "name": "Combiflam 250",
+    "pack": "60 ML",
+    "rate": 1141.2,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 237
+  },
+  {
+    "id": "emeset-250-237",
+    "name": "Emeset 250",
+    "pack": "1 VIAL",
+    "rate": 1145.9,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 238
+  },
+  {
+    "id": "ondem-250-238",
+    "name": "Ondem 250",
+    "pack": "10 TAB",
+    "rate": 1150.6,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 239
+  },
+  {
+    "id": "cyclopam-250-239",
+    "name": "Cyclopam 250",
+    "pack": "15 TAB",
+    "rate": 1155.3,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 240
+  },
+  {
+    "id": "sporlac-250-240",
+    "name": "Sporlac 250",
+    "pack": "10 CAP",
+    "rate": 1160.0,
+    "gst": 5.0,
+    "company": "Cipla",
+    "workbookRow": 241
+  },
+  {
+    "id": "azithral-500-241",
+    "name": "Azithral 500",
+    "pack": "30 TAB",
+    "rate": 1164.7,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 242
+  },
+  {
+    "id": "dolo-500-242",
+    "name": "Dolo 500",
+    "pack": "100 ML",
+    "rate": 1169.4,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 243
+  },
+  {
+    "id": "pantocid-500-243",
+    "name": "Pantocid 500",
+    "pack": "60 ML",
+    "rate": 1174.1,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 244
+  },
+  {
+    "id": "augmentin-500-244",
+    "name": "Augmentin 500",
+    "pack": "1 VIAL",
+    "rate": 1178.8,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 245
+  },
+  {
+    "id": "cetrizine-500-245",
+    "name": "Cetrizine 500",
+    "pack": "10 TAB",
+    "rate": 1183.5,
+    "gst": 5.0,
+    "company": "Mankind",
+    "workbookRow": 246
+  },
+  {
+    "id": "metformin-500-246",
+    "name": "Metformin 500",
+    "pack": "15 TAB",
+    "rate": 1188.2,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 247
+  },
+  {
+    "id": "telma-500-247",
+    "name": "Telma 500",
+    "pack": "10 CAP",
+    "rate": 1192.9,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 248
+  },
+  {
+    "id": "amlong-500-248",
+    "name": "Amlong 500",
+    "pack": "30 TAB",
+    "rate": 1197.6,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 249
+  },
+  {
+    "id": "shelcal-500-249",
+    "name": "Shelcal 500",
+    "pack": "100 ML",
+    "rate": 1202.3,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 250
+  },
+  {
+    "id": "zincovit-500-250",
+    "name": "Zincovit 500",
+    "pack": "60 ML",
+    "rate": 1207.0,
+    "gst": 5.0,
+    "company": "Abbott",
+    "workbookRow": 251
+  },
+  {
+    "id": "rantac-500-251",
+    "name": "Rantac 500",
+    "pack": "1 VIAL",
+    "rate": 1211.7,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 252
+  },
+  {
+    "id": "montair-500-252",
+    "name": "Montair 500",
+    "pack": "10 TAB",
+    "rate": 1216.4,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 253
+  },
+  {
+    "id": "pan-500-253",
+    "name": "Pan 500",
+    "pack": "15 TAB",
+    "rate": 1221.1,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 254
+  },
+  {
+    "id": "allegra-500-254",
+    "name": "Allegra 500",
+    "pack": "10 CAP",
+    "rate": 1225.8,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 255
+  },
+  {
+    "id": "calpol-500-255",
+    "name": "Calpol 500",
+    "pack": "30 TAB",
+    "rate": 1230.5,
+    "gst": 5.0,
+    "company": "Torrent",
+    "workbookRow": 256
+  },
+  {
+    "id": "meftal-500-256",
+    "name": "Meftal 500",
+    "pack": "100 ML",
+    "rate": 1235.2,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 257
+  },
+  {
+    "id": "ecosprin-500-257",
+    "name": "Ecosprin 500",
+    "pack": "60 ML",
+    "rate": 1239.9,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 258
+  },
+  {
+    "id": "thyronorm-500-258",
+    "name": "Thyronorm 500",
+    "pack": "1 VIAL",
+    "rate": 1244.6,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 259
+  },
+  {
+    "id": "liv-500-259",
+    "name": "Liv 500",
+    "pack": "10 TAB",
+    "rate": 1249.3,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 260
+  },
+  {
+    "id": "becosules-500-260",
+    "name": "Becosules 500",
+    "pack": "15 TAB",
+    "rate": 1254.0,
+    "gst": 5.0,
+    "company": "Glenmark",
+    "workbookRow": 261
+  },
+  {
+    "id": "clavam-500-261",
+    "name": "Clavam 500",
+    "pack": "10 CAP",
+    "rate": 1258.7,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 262
+  },
+  {
+    "id": "taxim-500-262",
+    "name": "Taxim 500",
+    "pack": "30 TAB",
+    "rate": 1263.4,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 263
+  },
+  {
+    "id": "omez-500-263",
+    "name": "Omez 500",
+    "pack": "100 ML",
+    "rate": 1268.1,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 264
+  },
+  {
+    "id": "rosuvas-500-264",
+    "name": "Rosuvas 500",
+    "pack": "60 ML",
+    "rate": 1272.8,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 265
+  },
+  {
+    "id": "atorva-500-265",
+    "name": "Atorva 500",
+    "pack": "1 VIAL",
+    "rate": 1277.5,
+    "gst": 5.0,
+    "company": "Sun Pharma",
+    "workbookRow": 266
+  },
+  {
+    "id": "glycomet-500-266",
+    "name": "Glycomet 500",
+    "pack": "10 TAB",
+    "rate": 1282.2,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 267
+  },
+  {
+    "id": "istamet-500-267",
+    "name": "Istamet 500",
+    "pack": "15 TAB",
+    "rate": 1286.9,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 268
+  },
+  {
+    "id": "janumet-500-268",
+    "name": "Janumet 500",
+    "pack": "10 CAP",
+    "rate": 1291.6,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 269
+  },
+  {
+    "id": "telmikind-500-269",
+    "name": "Telmikind 500",
+    "pack": "30 TAB",
+    "rate": 1296.3,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 270
+  },
+  {
+    "id": "olmezest-500-270",
+    "name": "Olmezest 500",
+    "pack": "100 ML",
+    "rate": 1301.0,
+    "gst": 5.0,
+    "company": "Dr Reddy",
+    "workbookRow": 271
+  },
+  {
+    "id": "aciloc-500-271",
+    "name": "Aciloc 500",
+    "pack": "60 ML",
+    "rate": 1305.7,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 272
+  },
+  {
+    "id": "nexpro-500-272",
+    "name": "Nexpro 500",
+    "pack": "1 VIAL",
+    "rate": 1310.4,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 273
+  },
+  {
+    "id": "montek-500-273",
+    "name": "Montek 500",
+    "pack": "10 TAB",
+    "rate": 1315.1,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 274
+  },
+  {
+    "id": "deriphyllin-500-274",
+    "name": "Deriphyllin 500",
+    "pack": "15 TAB",
+    "rate": 1319.8,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 275
+  },
+  {
+    "id": "sinarest-500-275",
+    "name": "Sinarest 500",
+    "pack": "10 CAP",
+    "rate": 1324.5,
+    "gst": 5.0,
+    "company": "Alkem",
+    "workbookRow": 276
+  },
+  {
+    "id": "combiflam-500-276",
+    "name": "Combiflam 500",
+    "pack": "30 TAB",
+    "rate": 1329.2,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 277
+  },
+  {
+    "id": "emeset-500-277",
+    "name": "Emeset 500",
+    "pack": "100 ML",
+    "rate": 1333.9,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 278
+  },
+  {
+    "id": "ondem-500-278",
+    "name": "Ondem 500",
+    "pack": "60 ML",
+    "rate": 1338.6,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 279
+  },
+  {
+    "id": "cyclopam-500-279",
+    "name": "Cyclopam 500",
+    "pack": "1 VIAL",
+    "rate": 1343.3,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 280
+  },
+  {
+    "id": "sporlac-500-280",
+    "name": "Sporlac 500",
+    "pack": "10 TAB",
+    "rate": 1348.0,
+    "gst": 5.0,
+    "company": "Cipla",
+    "workbookRow": 281
+  },
+  {
+    "id": "azithral-625-281",
+    "name": "Azithral 625",
+    "pack": "15 TAB",
+    "rate": 1352.7,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 282
+  },
+  {
+    "id": "dolo-625-282",
+    "name": "Dolo 625",
+    "pack": "10 CAP",
+    "rate": 1357.4,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 283
+  },
+  {
+    "id": "pantocid-625-283",
+    "name": "Pantocid 625",
+    "pack": "30 TAB",
+    "rate": 1362.1,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 284
+  },
+  {
+    "id": "augmentin-625-284",
+    "name": "Augmentin 625",
+    "pack": "100 ML",
+    "rate": 1366.8,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 285
+  },
+  {
+    "id": "cetrizine-625-285",
+    "name": "Cetrizine 625",
+    "pack": "60 ML",
+    "rate": 1371.5,
+    "gst": 5.0,
+    "company": "Mankind",
+    "workbookRow": 286
+  },
+  {
+    "id": "metformin-625-286",
+    "name": "Metformin 625",
+    "pack": "1 VIAL",
+    "rate": 1376.2,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 287
+  },
+  {
+    "id": "telma-625-287",
+    "name": "Telma 625",
+    "pack": "10 TAB",
+    "rate": 1380.9,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 288
+  },
+  {
+    "id": "amlong-625-288",
+    "name": "Amlong 625",
+    "pack": "15 TAB",
+    "rate": 1385.6,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 289
+  },
+  {
+    "id": "shelcal-625-289",
+    "name": "Shelcal 625",
+    "pack": "10 CAP",
+    "rate": 1390.3,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 290
+  },
+  {
+    "id": "zincovit-625-290",
+    "name": "Zincovit 625",
+    "pack": "30 TAB",
+    "rate": 1395.0,
+    "gst": 5.0,
+    "company": "Abbott",
+    "workbookRow": 291
+  },
+  {
+    "id": "rantac-625-291",
+    "name": "Rantac 625",
+    "pack": "100 ML",
+    "rate": 1399.7,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 292
+  },
+  {
+    "id": "montair-625-292",
+    "name": "Montair 625",
+    "pack": "60 ML",
+    "rate": 1404.4,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 293
+  },
+  {
+    "id": "pan-625-293",
+    "name": "Pan 625",
+    "pack": "1 VIAL",
+    "rate": 1409.1,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 294
+  },
+  {
+    "id": "allegra-625-294",
+    "name": "Allegra 625",
+    "pack": "10 TAB",
+    "rate": 1413.8,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 295
+  },
+  {
+    "id": "calpol-625-295",
+    "name": "Calpol 625",
+    "pack": "15 TAB",
+    "rate": 1418.5,
+    "gst": 5.0,
+    "company": "Torrent",
+    "workbookRow": 296
+  },
+  {
+    "id": "meftal-625-296",
+    "name": "Meftal 625",
+    "pack": "10 CAP",
+    "rate": 1423.2,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 297
+  },
+  {
+    "id": "ecosprin-625-297",
+    "name": "Ecosprin 625",
+    "pack": "30 TAB",
+    "rate": 1427.9,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 298
+  },
+  {
+    "id": "thyronorm-625-298",
+    "name": "Thyronorm 625",
+    "pack": "100 ML",
+    "rate": 1432.6,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 299
+  },
+  {
+    "id": "liv-625-299",
+    "name": "Liv 625",
+    "pack": "60 ML",
+    "rate": 1437.3,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 300
+  },
+  {
+    "id": "becosules-625-300",
+    "name": "Becosules 625",
+    "pack": "1 VIAL",
+    "rate": 1442.0,
+    "gst": 5.0,
+    "company": "Glenmark",
+    "workbookRow": 301
+  },
+  {
+    "id": "clavam-625-301",
+    "name": "Clavam 625",
+    "pack": "10 TAB",
+    "rate": 1446.7,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 302
+  },
+  {
+    "id": "taxim-625-302",
+    "name": "Taxim 625",
+    "pack": "15 TAB",
+    "rate": 1451.4,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 303
+  },
+  {
+    "id": "omez-625-303",
+    "name": "Omez 625",
+    "pack": "10 CAP",
+    "rate": 1456.1,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 304
+  },
+  {
+    "id": "rosuvas-625-304",
+    "name": "Rosuvas 625",
+    "pack": "30 TAB",
+    "rate": 1460.8,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 305
+  },
+  {
+    "id": "atorva-625-305",
+    "name": "Atorva 625",
+    "pack": "100 ML",
+    "rate": 1465.5,
+    "gst": 5.0,
+    "company": "Sun Pharma",
+    "workbookRow": 306
+  },
+  {
+    "id": "glycomet-625-306",
+    "name": "Glycomet 625",
+    "pack": "60 ML",
+    "rate": 1470.2,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 307
+  },
+  {
+    "id": "istamet-625-307",
+    "name": "Istamet 625",
+    "pack": "1 VIAL",
+    "rate": 1474.9,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 308
+  },
+  {
+    "id": "janumet-625-308",
+    "name": "Janumet 625",
+    "pack": "10 TAB",
+    "rate": 1479.6,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 309
+  },
+  {
+    "id": "telmikind-625-309",
+    "name": "Telmikind 625",
+    "pack": "15 TAB",
+    "rate": 1484.3,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 310
+  },
+  {
+    "id": "olmezest-625-310",
+    "name": "Olmezest 625",
+    "pack": "10 CAP",
+    "rate": 1489.0,
+    "gst": 5.0,
+    "company": "Dr Reddy",
+    "workbookRow": 311
+  },
+  {
+    "id": "aciloc-625-311",
+    "name": "Aciloc 625",
+    "pack": "30 TAB",
+    "rate": 1493.7,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 312
+  },
+  {
+    "id": "nexpro-625-312",
+    "name": "Nexpro 625",
+    "pack": "100 ML",
+    "rate": 1498.4,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 313
+  },
+  {
+    "id": "montek-625-313",
+    "name": "Montek 625",
+    "pack": "60 ML",
+    "rate": 1503.1,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 314
+  },
+  {
+    "id": "deriphyllin-625-314",
+    "name": "Deriphyllin 625",
+    "pack": "1 VIAL",
+    "rate": 1507.8,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 315
+  },
+  {
+    "id": "sinarest-625-315",
+    "name": "Sinarest 625",
+    "pack": "10 TAB",
+    "rate": 1512.5,
+    "gst": 5.0,
+    "company": "Alkem",
+    "workbookRow": 316
+  },
+  {
+    "id": "combiflam-625-316",
+    "name": "Combiflam 625",
+    "pack": "15 TAB",
+    "rate": 1517.2,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 317
+  },
+  {
+    "id": "emeset-625-317",
+    "name": "Emeset 625",
+    "pack": "10 CAP",
+    "rate": 1521.9,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 318
+  },
+  {
+    "id": "ondem-625-318",
+    "name": "Ondem 625",
+    "pack": "30 TAB",
+    "rate": 1526.6,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 319
+  },
+  {
+    "id": "cyclopam-625-319",
+    "name": "Cyclopam 625",
+    "pack": "100 ML",
+    "rate": 1531.3,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 320
+  },
+  {
+    "id": "sporlac-625-320",
+    "name": "Sporlac 625",
+    "pack": "60 ML",
+    "rate": 1536.0,
+    "gst": 5.0,
+    "company": "Cipla",
+    "workbookRow": 321
+  },
+  {
+    "id": "azithral-650-321",
+    "name": "Azithral 650",
+    "pack": "1 VIAL",
+    "rate": 1540.7,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 322
+  },
+  {
+    "id": "dolo-650-322",
+    "name": "Dolo 650",
+    "pack": "10 TAB",
+    "rate": 1545.4,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 323
+  },
+  {
+    "id": "pantocid-650-323",
+    "name": "Pantocid 650",
+    "pack": "15 TAB",
+    "rate": 1550.1,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 324
+  },
+  {
+    "id": "augmentin-650-324",
+    "name": "Augmentin 650",
+    "pack": "10 CAP",
+    "rate": 1554.8,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 325
+  },
+  {
+    "id": "cetrizine-650-325",
+    "name": "Cetrizine 650",
+    "pack": "30 TAB",
+    "rate": 1559.5,
+    "gst": 5.0,
+    "company": "Mankind",
+    "workbookRow": 326
+  },
+  {
+    "id": "metformin-650-326",
+    "name": "Metformin 650",
+    "pack": "100 ML",
+    "rate": 1564.2,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 327
+  },
+  {
+    "id": "telma-650-327",
+    "name": "Telma 650",
+    "pack": "60 ML",
+    "rate": 1568.9,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 328
+  },
+  {
+    "id": "amlong-650-328",
+    "name": "Amlong 650",
+    "pack": "1 VIAL",
+    "rate": 1573.6,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 329
+  },
+  {
+    "id": "shelcal-650-329",
+    "name": "Shelcal 650",
+    "pack": "10 TAB",
+    "rate": 1578.3,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 330
+  },
+  {
+    "id": "zincovit-650-330",
+    "name": "Zincovit 650",
+    "pack": "15 TAB",
+    "rate": 1583.0,
+    "gst": 5.0,
+    "company": "Abbott",
+    "workbookRow": 331
+  },
+  {
+    "id": "rantac-650-331",
+    "name": "Rantac 650",
+    "pack": "10 CAP",
+    "rate": 1587.7,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 332
+  },
+  {
+    "id": "montair-650-332",
+    "name": "Montair 650",
+    "pack": "30 TAB",
+    "rate": 1592.4,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 333
+  },
+  {
+    "id": "pan-650-333",
+    "name": "Pan 650",
+    "pack": "100 ML",
+    "rate": 1597.1,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 334
+  },
+  {
+    "id": "allegra-650-334",
+    "name": "Allegra 650",
+    "pack": "60 ML",
+    "rate": 1601.8,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 335
+  },
+  {
+    "id": "calpol-650-335",
+    "name": "Calpol 650",
+    "pack": "1 VIAL",
+    "rate": 1606.5,
+    "gst": 5.0,
+    "company": "Torrent",
+    "workbookRow": 336
+  },
+  {
+    "id": "meftal-650-336",
+    "name": "Meftal 650",
+    "pack": "10 TAB",
+    "rate": 1611.2,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 337
+  },
+  {
+    "id": "ecosprin-650-337",
+    "name": "Ecosprin 650",
+    "pack": "15 TAB",
+    "rate": 1615.9,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 338
+  },
+  {
+    "id": "thyronorm-650-338",
+    "name": "Thyronorm 650",
+    "pack": "10 CAP",
+    "rate": 1620.6,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 339
+  },
+  {
+    "id": "liv-650-339",
+    "name": "Liv 650",
+    "pack": "30 TAB",
+    "rate": 1625.3,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 340
+  },
+  {
+    "id": "becosules-650-340",
+    "name": "Becosules 650",
+    "pack": "100 ML",
+    "rate": 1630.0,
+    "gst": 5.0,
+    "company": "Glenmark",
+    "workbookRow": 341
+  },
+  {
+    "id": "clavam-650-341",
+    "name": "Clavam 650",
+    "pack": "60 ML",
+    "rate": 1634.7,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 342
+  },
+  {
+    "id": "taxim-650-342",
+    "name": "Taxim 650",
+    "pack": "1 VIAL",
+    "rate": 1639.4,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 343
+  },
+  {
+    "id": "omez-650-343",
+    "name": "Omez 650",
+    "pack": "10 TAB",
+    "rate": 1644.1,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 344
+  },
+  {
+    "id": "rosuvas-650-344",
+    "name": "Rosuvas 650",
+    "pack": "15 TAB",
+    "rate": 1648.8,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 345
+  },
+  {
+    "id": "atorva-650-345",
+    "name": "Atorva 650",
+    "pack": "10 CAP",
+    "rate": 1653.5,
+    "gst": 5.0,
+    "company": "Sun Pharma",
+    "workbookRow": 346
+  },
+  {
+    "id": "glycomet-650-346",
+    "name": "Glycomet 650",
+    "pack": "30 TAB",
+    "rate": 1658.2,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 347
+  },
+  {
+    "id": "istamet-650-347",
+    "name": "Istamet 650",
+    "pack": "100 ML",
+    "rate": 1662.9,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 348
+  },
+  {
+    "id": "janumet-650-348",
+    "name": "Janumet 650",
+    "pack": "60 ML",
+    "rate": 1667.6,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 349
+  },
+  {
+    "id": "telmikind-650-349",
+    "name": "Telmikind 650",
+    "pack": "1 VIAL",
+    "rate": 1672.3,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 350
+  },
+  {
+    "id": "olmezest-650-350",
+    "name": "Olmezest 650",
+    "pack": "10 TAB",
+    "rate": 1677.0,
+    "gst": 5.0,
+    "company": "Dr Reddy",
+    "workbookRow": 351
+  },
+  {
+    "id": "aciloc-650-351",
+    "name": "Aciloc 650",
+    "pack": "15 TAB",
+    "rate": 1681.7,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 352
+  },
+  {
+    "id": "nexpro-650-352",
+    "name": "Nexpro 650",
+    "pack": "10 CAP",
+    "rate": 1686.4,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 353
+  },
+  {
+    "id": "montek-650-353",
+    "name": "Montek 650",
+    "pack": "30 TAB",
+    "rate": 1691.1,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 354
+  },
+  {
+    "id": "deriphyllin-650-354",
+    "name": "Deriphyllin 650",
+    "pack": "100 ML",
+    "rate": 1695.8,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 355
+  },
+  {
+    "id": "sinarest-650-355",
+    "name": "Sinarest 650",
+    "pack": "60 ML",
+    "rate": 1700.5,
+    "gst": 5.0,
+    "company": "Alkem",
+    "workbookRow": 356
+  },
+  {
+    "id": "combiflam-650-356",
+    "name": "Combiflam 650",
+    "pack": "1 VIAL",
+    "rate": 1705.2,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 357
+  },
+  {
+    "id": "emeset-650-357",
+    "name": "Emeset 650",
+    "pack": "10 TAB",
+    "rate": 1709.9,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 358
+  },
+  {
+    "id": "ondem-650-358",
+    "name": "Ondem 650",
+    "pack": "15 TAB",
+    "rate": 1714.6,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 359
+  },
+  {
+    "id": "cyclopam-650-359",
+    "name": "Cyclopam 650",
+    "pack": "10 CAP",
+    "rate": 1719.3,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 360
+  },
+  {
+    "id": "sporlac-650-360",
+    "name": "Sporlac 650",
+    "pack": "30 TAB",
+    "rate": 1724.0,
+    "gst": 5.0,
+    "company": "Cipla",
+    "workbookRow": 361
+  },
+  {
+    "id": "azithral-ds-361",
+    "name": "Azithral DS",
+    "pack": "100 ML",
+    "rate": 1728.7,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 362
+  },
+  {
+    "id": "dolo-ds-362",
+    "name": "Dolo DS",
+    "pack": "60 ML",
+    "rate": 1733.4,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 363
+  },
+  {
+    "id": "pantocid-ds-363",
+    "name": "Pantocid DS",
+    "pack": "1 VIAL",
+    "rate": 1738.1,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 364
+  },
+  {
+    "id": "augmentin-ds-364",
+    "name": "Augmentin DS",
+    "pack": "10 TAB",
+    "rate": 1742.8,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 365
+  },
+  {
+    "id": "cetrizine-ds-365",
+    "name": "Cetrizine DS",
+    "pack": "15 TAB",
+    "rate": 1747.5,
+    "gst": 5.0,
+    "company": "Mankind",
+    "workbookRow": 366
+  },
+  {
+    "id": "metformin-ds-366",
+    "name": "Metformin DS",
+    "pack": "10 CAP",
+    "rate": 1752.2,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 367
+  },
+  {
+    "id": "telma-ds-367",
+    "name": "Telma DS",
+    "pack": "30 TAB",
+    "rate": 1756.9,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 368
+  },
+  {
+    "id": "amlong-ds-368",
+    "name": "Amlong DS",
+    "pack": "100 ML",
+    "rate": 1761.6,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 369
+  },
+  {
+    "id": "shelcal-ds-369",
+    "name": "Shelcal DS",
+    "pack": "60 ML",
+    "rate": 1766.3,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 370
+  },
+  {
+    "id": "zincovit-ds-370",
+    "name": "Zincovit DS",
+    "pack": "1 VIAL",
+    "rate": 1771.0,
+    "gst": 5.0,
+    "company": "Abbott",
+    "workbookRow": 371
+  },
+  {
+    "id": "rantac-ds-371",
+    "name": "Rantac DS",
+    "pack": "10 TAB",
+    "rate": 1775.7,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 372
+  },
+  {
+    "id": "montair-ds-372",
+    "name": "Montair DS",
+    "pack": "15 TAB",
+    "rate": 1780.4,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 373
+  },
+  {
+    "id": "pan-ds-373",
+    "name": "Pan DS",
+    "pack": "10 CAP",
+    "rate": 1785.1,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 374
+  },
+  {
+    "id": "allegra-ds-374",
+    "name": "Allegra DS",
+    "pack": "30 TAB",
+    "rate": 1789.8,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 375
+  },
+  {
+    "id": "calpol-ds-375",
+    "name": "Calpol DS",
+    "pack": "100 ML",
+    "rate": 1794.5,
+    "gst": 5.0,
+    "company": "Torrent",
+    "workbookRow": 376
+  },
+  {
+    "id": "meftal-ds-376",
+    "name": "Meftal DS",
+    "pack": "60 ML",
+    "rate": 1799.2,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 377
+  },
+  {
+    "id": "ecosprin-ds-377",
+    "name": "Ecosprin DS",
+    "pack": "1 VIAL",
+    "rate": 1803.9,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 378
+  },
+  {
+    "id": "thyronorm-ds-378",
+    "name": "Thyronorm DS",
+    "pack": "10 TAB",
+    "rate": 1808.6,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 379
+  },
+  {
+    "id": "liv-ds-379",
+    "name": "Liv DS",
+    "pack": "15 TAB",
+    "rate": 1813.3,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 380
+  },
+  {
+    "id": "becosules-ds-380",
+    "name": "Becosules DS",
+    "pack": "10 CAP",
+    "rate": 1818.0,
+    "gst": 5.0,
+    "company": "Glenmark",
+    "workbookRow": 381
+  },
+  {
+    "id": "clavam-ds-381",
+    "name": "Clavam DS",
+    "pack": "30 TAB",
+    "rate": 1822.7,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 382
+  },
+  {
+    "id": "taxim-ds-382",
+    "name": "Taxim DS",
+    "pack": "100 ML",
+    "rate": 1827.4,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 383
+  },
+  {
+    "id": "omez-ds-383",
+    "name": "Omez DS",
+    "pack": "60 ML",
+    "rate": 1832.1,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 384
+  },
+  {
+    "id": "rosuvas-ds-384",
+    "name": "Rosuvas DS",
+    "pack": "1 VIAL",
+    "rate": 1836.8,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 385
+  },
+  {
+    "id": "atorva-ds-385",
+    "name": "Atorva DS",
+    "pack": "10 TAB",
+    "rate": 1841.5,
+    "gst": 5.0,
+    "company": "Sun Pharma",
+    "workbookRow": 386
+  },
+  {
+    "id": "glycomet-ds-386",
+    "name": "Glycomet DS",
+    "pack": "15 TAB",
+    "rate": 1846.2,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 387
+  },
+  {
+    "id": "istamet-ds-387",
+    "name": "Istamet DS",
+    "pack": "10 CAP",
+    "rate": 1850.9,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 388
+  },
+  {
+    "id": "janumet-ds-388",
+    "name": "Janumet DS",
+    "pack": "30 TAB",
+    "rate": 1855.6,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 389
+  },
+  {
+    "id": "telmikind-ds-389",
+    "name": "Telmikind DS",
+    "pack": "100 ML",
+    "rate": 1860.3,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 390
+  },
+  {
+    "id": "olmezest-ds-390",
+    "name": "Olmezest DS",
+    "pack": "60 ML",
+    "rate": 1865.0,
+    "gst": 5.0,
+    "company": "Dr Reddy",
+    "workbookRow": 391
+  },
+  {
+    "id": "aciloc-ds-391",
+    "name": "Aciloc DS",
+    "pack": "1 VIAL",
+    "rate": 1869.7,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 392
+  },
+  {
+    "id": "nexpro-ds-392",
+    "name": "Nexpro DS",
+    "pack": "10 TAB",
+    "rate": 1874.4,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 393
+  },
+  {
+    "id": "montek-ds-393",
+    "name": "Montek DS",
+    "pack": "15 TAB",
+    "rate": 1879.1,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 394
+  },
+  {
+    "id": "deriphyllin-ds-394",
+    "name": "Deriphyllin DS",
+    "pack": "10 CAP",
+    "rate": 1883.8,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 395
+  },
+  {
+    "id": "sinarest-ds-395",
+    "name": "Sinarest DS",
+    "pack": "30 TAB",
+    "rate": 1888.5,
+    "gst": 5.0,
+    "company": "Alkem",
+    "workbookRow": 396
+  },
+  {
+    "id": "combiflam-ds-396",
+    "name": "Combiflam DS",
+    "pack": "100 ML",
+    "rate": 1893.2,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 397
+  },
+  {
+    "id": "emeset-ds-397",
+    "name": "Emeset DS",
+    "pack": "60 ML",
+    "rate": 1897.9,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 398
+  },
+  {
+    "id": "ondem-ds-398",
+    "name": "Ondem DS",
+    "pack": "1 VIAL",
+    "rate": 1902.6,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 399
+  },
+  {
+    "id": "cyclopam-ds-399",
+    "name": "Cyclopam DS",
+    "pack": "10 TAB",
+    "rate": 1907.3,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 400
+  },
+  {
+    "id": "sporlac-ds-400",
+    "name": "Sporlac DS",
+    "pack": "15 TAB",
+    "rate": 1912.0,
+    "gst": 5.0,
+    "company": "Cipla",
+    "workbookRow": 401
+  },
+  {
+    "id": "azithral-sr-401",
+    "name": "Azithral SR",
+    "pack": "10 CAP",
+    "rate": 1916.7,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 402
+  },
+  {
+    "id": "dolo-sr-402",
+    "name": "Dolo SR",
+    "pack": "30 TAB",
+    "rate": 1921.4,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 403
+  },
+  {
+    "id": "pantocid-sr-403",
+    "name": "Pantocid SR",
+    "pack": "100 ML",
+    "rate": 1926.1,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 404
+  },
+  {
+    "id": "augmentin-sr-404",
+    "name": "Augmentin SR",
+    "pack": "60 ML",
+    "rate": 1930.8,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 405
+  },
+  {
+    "id": "cetrizine-sr-405",
+    "name": "Cetrizine SR",
+    "pack": "1 VIAL",
+    "rate": 1935.5,
+    "gst": 5.0,
+    "company": "Mankind",
+    "workbookRow": 406
+  },
+  {
+    "id": "metformin-sr-406",
+    "name": "Metformin SR",
+    "pack": "10 TAB",
+    "rate": 1940.2,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 407
+  },
+  {
+    "id": "telma-sr-407",
+    "name": "Telma SR",
+    "pack": "15 TAB",
+    "rate": 1944.9,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 408
+  },
+  {
+    "id": "amlong-sr-408",
+    "name": "Amlong SR",
+    "pack": "10 CAP",
+    "rate": 1949.6,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 409
+  },
+  {
+    "id": "shelcal-sr-409",
+    "name": "Shelcal SR",
+    "pack": "30 TAB",
+    "rate": 1954.3,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 410
+  },
+  {
+    "id": "zincovit-sr-410",
+    "name": "Zincovit SR",
+    "pack": "100 ML",
+    "rate": 1959.0,
+    "gst": 5.0,
+    "company": "Abbott",
+    "workbookRow": 411
+  },
+  {
+    "id": "rantac-sr-411",
+    "name": "Rantac SR",
+    "pack": "60 ML",
+    "rate": 1963.7,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 412
+  },
+  {
+    "id": "montair-sr-412",
+    "name": "Montair SR",
+    "pack": "1 VIAL",
+    "rate": 1968.4,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 413
+  },
+  {
+    "id": "pan-sr-413",
+    "name": "Pan SR",
+    "pack": "10 TAB",
+    "rate": 1973.1,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 414
+  },
+  {
+    "id": "allegra-sr-414",
+    "name": "Allegra SR",
+    "pack": "15 TAB",
+    "rate": 1977.8,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 415
+  },
+  {
+    "id": "calpol-sr-415",
+    "name": "Calpol SR",
+    "pack": "10 CAP",
+    "rate": 1982.5,
+    "gst": 5.0,
+    "company": "Torrent",
+    "workbookRow": 416
+  },
+  {
+    "id": "meftal-sr-416",
+    "name": "Meftal SR",
+    "pack": "30 TAB",
+    "rate": 1987.2,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 417
+  },
+  {
+    "id": "ecosprin-sr-417",
+    "name": "Ecosprin SR",
+    "pack": "100 ML",
+    "rate": 1991.9,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 418
+  },
+  {
+    "id": "thyronorm-sr-418",
+    "name": "Thyronorm SR",
+    "pack": "60 ML",
+    "rate": 1996.6,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 419
+  },
+  {
+    "id": "liv-sr-419",
+    "name": "Liv SR",
+    "pack": "1 VIAL",
+    "rate": 2001.3,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 420
+  },
+  {
+    "id": "becosules-sr-420",
+    "name": "Becosules SR",
+    "pack": "10 TAB",
+    "rate": 2006.0,
+    "gst": 5.0,
+    "company": "Glenmark",
+    "workbookRow": 421
+  },
+  {
+    "id": "clavam-sr-421",
+    "name": "Clavam SR",
+    "pack": "15 TAB",
+    "rate": 2010.7,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 422
+  },
+  {
+    "id": "taxim-sr-422",
+    "name": "Taxim SR",
+    "pack": "10 CAP",
+    "rate": 2015.4,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 423
+  },
+  {
+    "id": "omez-sr-423",
+    "name": "Omez SR",
+    "pack": "30 TAB",
+    "rate": 2020.1,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 424
+  },
+  {
+    "id": "rosuvas-sr-424",
+    "name": "Rosuvas SR",
+    "pack": "100 ML",
+    "rate": 2024.8,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 425
+  },
+  {
+    "id": "atorva-sr-425",
+    "name": "Atorva SR",
+    "pack": "60 ML",
+    "rate": 2029.5,
+    "gst": 5.0,
+    "company": "Sun Pharma",
+    "workbookRow": 426
+  },
+  {
+    "id": "glycomet-sr-426",
+    "name": "Glycomet SR",
+    "pack": "1 VIAL",
+    "rate": 2034.2,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 427
+  },
+  {
+    "id": "istamet-sr-427",
+    "name": "Istamet SR",
+    "pack": "10 TAB",
+    "rate": 2038.9,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 428
+  },
+  {
+    "id": "janumet-sr-428",
+    "name": "Janumet SR",
+    "pack": "15 TAB",
+    "rate": 2043.6,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 429
+  },
+  {
+    "id": "telmikind-sr-429",
+    "name": "Telmikind SR",
+    "pack": "10 CAP",
+    "rate": 2048.3,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 430
+  },
+  {
+    "id": "olmezest-sr-430",
+    "name": "Olmezest SR",
+    "pack": "30 TAB",
+    "rate": 2053.0,
+    "gst": 5.0,
+    "company": "Dr Reddy",
+    "workbookRow": 431
+  },
+  {
+    "id": "aciloc-sr-431",
+    "name": "Aciloc SR",
+    "pack": "100 ML",
+    "rate": 2057.7,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 432
+  },
+  {
+    "id": "nexpro-sr-432",
+    "name": "Nexpro SR",
+    "pack": "60 ML",
+    "rate": 2062.4,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 433
+  },
+  {
+    "id": "montek-sr-433",
+    "name": "Montek SR",
+    "pack": "1 VIAL",
+    "rate": 2067.1,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 434
+  },
+  {
+    "id": "deriphyllin-sr-434",
+    "name": "Deriphyllin SR",
+    "pack": "10 TAB",
+    "rate": 2071.8,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 435
+  },
+  {
+    "id": "sinarest-sr-435",
+    "name": "Sinarest SR",
+    "pack": "15 TAB",
+    "rate": 2076.5,
+    "gst": 5.0,
+    "company": "Alkem",
+    "workbookRow": 436
+  },
+  {
+    "id": "combiflam-sr-436",
+    "name": "Combiflam SR",
+    "pack": "10 CAP",
+    "rate": 2081.2,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 437
+  },
+  {
+    "id": "emeset-sr-437",
+    "name": "Emeset SR",
+    "pack": "30 TAB",
+    "rate": 2085.9,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 438
+  },
+  {
+    "id": "ondem-sr-438",
+    "name": "Ondem SR",
+    "pack": "100 ML",
+    "rate": 2090.6,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 439
+  },
+  {
+    "id": "cyclopam-sr-439",
+    "name": "Cyclopam SR",
+    "pack": "60 ML",
+    "rate": 2095.3,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 440
+  },
+  {
+    "id": "sporlac-sr-440",
+    "name": "Sporlac SR",
+    "pack": "1 VIAL",
+    "rate": 2100.0,
+    "gst": 5.0,
+    "company": "Cipla",
+    "workbookRow": 441
+  },
+  {
+    "id": "azithral-duo-441",
+    "name": "Azithral Duo",
+    "pack": "10 TAB",
+    "rate": 2104.7,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 442
+  },
+  {
+    "id": "dolo-duo-442",
+    "name": "Dolo Duo",
+    "pack": "15 TAB",
+    "rate": 2109.4,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 443
+  },
+  {
+    "id": "pantocid-duo-443",
+    "name": "Pantocid Duo",
+    "pack": "10 CAP",
+    "rate": 2114.1,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 444
+  },
+  {
+    "id": "augmentin-duo-444",
+    "name": "Augmentin Duo",
+    "pack": "30 TAB",
+    "rate": 2118.8,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 445
+  },
+  {
+    "id": "cetrizine-duo-445",
+    "name": "Cetrizine Duo",
+    "pack": "100 ML",
+    "rate": 2123.5,
+    "gst": 5.0,
+    "company": "Mankind",
+    "workbookRow": 446
+  },
+  {
+    "id": "metformin-duo-446",
+    "name": "Metformin Duo",
+    "pack": "60 ML",
+    "rate": 2128.2,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 447
+  },
+  {
+    "id": "telma-duo-447",
+    "name": "Telma Duo",
+    "pack": "1 VIAL",
+    "rate": 2132.9,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 448
+  },
+  {
+    "id": "amlong-duo-448",
+    "name": "Amlong Duo",
+    "pack": "10 TAB",
+    "rate": 2137.6,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 449
+  },
+  {
+    "id": "shelcal-duo-449",
+    "name": "Shelcal Duo",
+    "pack": "15 TAB",
+    "rate": 2142.3,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 450
+  },
+  {
+    "id": "zincovit-duo-450",
+    "name": "Zincovit Duo",
+    "pack": "10 CAP",
+    "rate": 2147.0,
+    "gst": 5.0,
+    "company": "Abbott",
+    "workbookRow": 451
+  },
+  {
+    "id": "rantac-duo-451",
+    "name": "Rantac Duo",
+    "pack": "30 TAB",
+    "rate": 2151.7,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 452
+  },
+  {
+    "id": "montair-duo-452",
+    "name": "Montair Duo",
+    "pack": "100 ML",
+    "rate": 2156.4,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 453
+  },
+  {
+    "id": "pan-duo-453",
+    "name": "Pan Duo",
+    "pack": "60 ML",
+    "rate": 2161.1,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 454
+  },
+  {
+    "id": "allegra-duo-454",
+    "name": "Allegra Duo",
+    "pack": "1 VIAL",
+    "rate": 2165.8,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 455
+  },
+  {
+    "id": "calpol-duo-455",
+    "name": "Calpol Duo",
+    "pack": "10 TAB",
+    "rate": 2170.5,
+    "gst": 5.0,
+    "company": "Torrent",
+    "workbookRow": 456
+  },
+  {
+    "id": "meftal-duo-456",
+    "name": "Meftal Duo",
+    "pack": "15 TAB",
+    "rate": 2175.2,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 457
+  },
+  {
+    "id": "ecosprin-duo-457",
+    "name": "Ecosprin Duo",
+    "pack": "10 CAP",
+    "rate": 2179.9,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 458
+  },
+  {
+    "id": "thyronorm-duo-458",
+    "name": "Thyronorm Duo",
+    "pack": "30 TAB",
+    "rate": 2184.6,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 459
+  },
+  {
+    "id": "liv-duo-459",
+    "name": "Liv Duo",
+    "pack": "100 ML",
+    "rate": 2189.3,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 460
+  },
+  {
+    "id": "becosules-duo-460",
+    "name": "Becosules Duo",
+    "pack": "60 ML",
+    "rate": 2194.0,
+    "gst": 5.0,
+    "company": "Glenmark",
+    "workbookRow": 461
+  },
+  {
+    "id": "clavam-duo-461",
+    "name": "Clavam Duo",
+    "pack": "1 VIAL",
+    "rate": 2198.7,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 462
+  },
+  {
+    "id": "taxim-duo-462",
+    "name": "Taxim Duo",
+    "pack": "10 TAB",
+    "rate": 2203.4,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 463
+  },
+  {
+    "id": "omez-duo-463",
+    "name": "Omez Duo",
+    "pack": "15 TAB",
+    "rate": 2208.1,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 464
+  },
+  {
+    "id": "rosuvas-duo-464",
+    "name": "Rosuvas Duo",
+    "pack": "10 CAP",
+    "rate": 2212.8,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 465
+  },
+  {
+    "id": "atorva-duo-465",
+    "name": "Atorva Duo",
+    "pack": "30 TAB",
+    "rate": 2217.5,
+    "gst": 5.0,
+    "company": "Sun Pharma",
+    "workbookRow": 466
+  },
+  {
+    "id": "glycomet-duo-466",
+    "name": "Glycomet Duo",
+    "pack": "100 ML",
+    "rate": 2222.2,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 467
+  },
+  {
+    "id": "istamet-duo-467",
+    "name": "Istamet Duo",
+    "pack": "60 ML",
+    "rate": 2226.9,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 468
+  },
+  {
+    "id": "janumet-duo-468",
+    "name": "Janumet Duo",
+    "pack": "1 VIAL",
+    "rate": 2231.6,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 469
+  },
+  {
+    "id": "telmikind-duo-469",
+    "name": "Telmikind Duo",
+    "pack": "10 TAB",
+    "rate": 2236.3,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 470
+  },
+  {
+    "id": "olmezest-duo-470",
+    "name": "Olmezest Duo",
+    "pack": "15 TAB",
+    "rate": 2241.0,
+    "gst": 5.0,
+    "company": "Dr Reddy",
+    "workbookRow": 471
+  },
+  {
+    "id": "aciloc-duo-471",
+    "name": "Aciloc Duo",
+    "pack": "10 CAP",
+    "rate": 2245.7,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 472
+  },
+  {
+    "id": "nexpro-duo-472",
+    "name": "Nexpro Duo",
+    "pack": "30 TAB",
+    "rate": 2250.4,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 473
+  },
+  {
+    "id": "montek-duo-473",
+    "name": "Montek Duo",
+    "pack": "100 ML",
+    "rate": 2255.1,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 474
+  },
+  {
+    "id": "deriphyllin-duo-474",
+    "name": "Deriphyllin Duo",
+    "pack": "60 ML",
+    "rate": 2259.8,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 475
+  },
+  {
+    "id": "sinarest-duo-475",
+    "name": "Sinarest Duo",
+    "pack": "1 VIAL",
+    "rate": 2264.5,
+    "gst": 5.0,
+    "company": "Alkem",
+    "workbookRow": 476
+  },
+  {
+    "id": "combiflam-duo-476",
+    "name": "Combiflam Duo",
+    "pack": "10 TAB",
+    "rate": 2269.2,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 477
+  },
+  {
+    "id": "emeset-duo-477",
+    "name": "Emeset Duo",
+    "pack": "15 TAB",
+    "rate": 2273.9,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 478
+  },
+  {
+    "id": "ondem-duo-478",
+    "name": "Ondem Duo",
+    "pack": "10 CAP",
+    "rate": 2278.6,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 479
+  },
+  {
+    "id": "cyclopam-duo-479",
+    "name": "Cyclopam Duo",
+    "pack": "30 TAB",
+    "rate": 2283.3,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 480
+  },
+  {
+    "id": "sporlac-duo-480",
+    "name": "Sporlac Duo",
+    "pack": "100 ML",
+    "rate": 2288.0,
+    "gst": 5.0,
+    "company": "Cipla",
+    "workbookRow": 481
+  },
+  {
+    "id": "azithral-50-481",
+    "name": "Azithral 50",
+    "pack": "60 ML",
+    "rate": 2292.7,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 482
+  },
+  {
+    "id": "dolo-50-482",
+    "name": "Dolo 50",
+    "pack": "1 VIAL",
+    "rate": 2297.4,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 483
+  },
+  {
+    "id": "pantocid-50-483",
+    "name": "Pantocid 50",
+    "pack": "10 TAB",
+    "rate": 2302.1,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 484
+  },
+  {
+    "id": "augmentin-50-484",
+    "name": "Augmentin 50",
+    "pack": "15 TAB",
+    "rate": 2306.8,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 485
+  },
+  {
+    "id": "cetrizine-50-485",
+    "name": "Cetrizine 50",
+    "pack": "10 CAP",
+    "rate": 2311.5,
+    "gst": 5.0,
+    "company": "Mankind",
+    "workbookRow": 486
+  },
+  {
+    "id": "metformin-50-486",
+    "name": "Metformin 50",
+    "pack": "30 TAB",
+    "rate": 2316.2,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 487
+  },
+  {
+    "id": "telma-50-487",
+    "name": "Telma 50",
+    "pack": "100 ML",
+    "rate": 2320.9,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 488
+  },
+  {
+    "id": "amlong-50-488",
+    "name": "Amlong 50",
+    "pack": "60 ML",
+    "rate": 2325.6,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 489
+  },
+  {
+    "id": "shelcal-50-489",
+    "name": "Shelcal 50",
+    "pack": "1 VIAL",
+    "rate": 2330.3,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 490
+  },
+  {
+    "id": "zincovit-50-490",
+    "name": "Zincovit 50",
+    "pack": "10 TAB",
+    "rate": 2335.0,
+    "gst": 5.0,
+    "company": "Abbott",
+    "workbookRow": 491
+  },
+  {
+    "id": "rantac-50-491",
+    "name": "Rantac 50",
+    "pack": "15 TAB",
+    "rate": 2339.7,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 492
+  },
+  {
+    "id": "montair-50-492",
+    "name": "Montair 50",
+    "pack": "10 CAP",
+    "rate": 2344.4,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 493
+  },
+  {
+    "id": "pan-50-493",
+    "name": "Pan 50",
+    "pack": "30 TAB",
+    "rate": 2349.1,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 494
+  },
+  {
+    "id": "allegra-50-494",
+    "name": "Allegra 50",
+    "pack": "100 ML",
+    "rate": 2353.8,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 495
+  },
+  {
+    "id": "calpol-50-495",
+    "name": "Calpol 50",
+    "pack": "60 ML",
+    "rate": 2358.5,
+    "gst": 5.0,
+    "company": "Torrent",
+    "workbookRow": 496
+  },
+  {
+    "id": "meftal-50-496",
+    "name": "Meftal 50",
+    "pack": "1 VIAL",
+    "rate": 2363.2,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 497
+  },
+  {
+    "id": "ecosprin-50-497",
+    "name": "Ecosprin 50",
+    "pack": "10 TAB",
+    "rate": 2367.9,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 498
+  },
+  {
+    "id": "thyronorm-50-498",
+    "name": "Thyronorm 50",
+    "pack": "15 TAB",
+    "rate": 2372.6,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 499
+  },
+  {
+    "id": "liv-50-499",
+    "name": "Liv 50",
+    "pack": "10 CAP",
+    "rate": 2377.3,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 500
+  },
+  {
+    "id": "becosules-50-500",
+    "name": "Becosules 50",
+    "pack": "30 TAB",
+    "rate": 2382.0,
+    "gst": 5.0,
+    "company": "Glenmark",
+    "workbookRow": 501
+  },
+  {
+    "id": "clavam-50-501",
+    "name": "Clavam 50",
+    "pack": "100 ML",
+    "rate": 2386.7,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 502
+  },
+  {
+    "id": "taxim-50-502",
+    "name": "Taxim 50",
+    "pack": "60 ML",
+    "rate": 2391.4,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 503
+  },
+  {
+    "id": "omez-50-503",
+    "name": "Omez 50",
+    "pack": "1 VIAL",
+    "rate": 2396.1,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 504
+  },
+  {
+    "id": "rosuvas-50-504",
+    "name": "Rosuvas 50",
+    "pack": "10 TAB",
+    "rate": 2400.8,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 505
+  },
+  {
+    "id": "atorva-50-505",
+    "name": "Atorva 50",
+    "pack": "15 TAB",
+    "rate": 2405.5,
+    "gst": 5.0,
+    "company": "Sun Pharma",
+    "workbookRow": 506
+  },
+  {
+    "id": "glycomet-50-506",
+    "name": "Glycomet 50",
+    "pack": "10 CAP",
+    "rate": 2410.2,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 507
+  },
+  {
+    "id": "istamet-50-507",
+    "name": "Istamet 50",
+    "pack": "30 TAB",
+    "rate": 2414.9,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 508
+  },
+  {
+    "id": "janumet-50-508",
+    "name": "Janumet 50",
+    "pack": "100 ML",
+    "rate": 2419.6,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 509
+  },
+  {
+    "id": "telmikind-50-509",
+    "name": "Telmikind 50",
+    "pack": "60 ML",
+    "rate": 2424.3,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 510
+  },
+  {
+    "id": "olmezest-50-510",
+    "name": "Olmezest 50",
+    "pack": "1 VIAL",
+    "rate": 2429.0,
+    "gst": 5.0,
+    "company": "Dr Reddy",
+    "workbookRow": 511
+  },
+  {
+    "id": "aciloc-50-511",
+    "name": "Aciloc 50",
+    "pack": "10 TAB",
+    "rate": 2433.7,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 512
+  },
+  {
+    "id": "nexpro-50-512",
+    "name": "Nexpro 50",
+    "pack": "15 TAB",
+    "rate": 2438.4,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 513
+  },
+  {
+    "id": "montek-50-513",
+    "name": "Montek 50",
+    "pack": "10 CAP",
+    "rate": 2443.1,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 514
+  },
+  {
+    "id": "deriphyllin-50-514",
+    "name": "Deriphyllin 50",
+    "pack": "30 TAB",
+    "rate": 2447.8,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 515
+  },
+  {
+    "id": "sinarest-50-515",
+    "name": "Sinarest 50",
+    "pack": "100 ML",
+    "rate": 2452.5,
+    "gst": 5.0,
+    "company": "Alkem",
+    "workbookRow": 516
+  },
+  {
+    "id": "combiflam-50-516",
+    "name": "Combiflam 50",
+    "pack": "60 ML",
+    "rate": 2457.2,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 517
+  },
+  {
+    "id": "emeset-50-517",
+    "name": "Emeset 50",
+    "pack": "1 VIAL",
+    "rate": 2461.9,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 518
+  },
+  {
+    "id": "ondem-50-518",
+    "name": "Ondem 50",
+    "pack": "10 TAB",
+    "rate": 2466.6,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 519
+  },
+  {
+    "id": "cyclopam-50-519",
+    "name": "Cyclopam 50",
+    "pack": "15 TAB",
+    "rate": 2471.3,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 520
+  },
+  {
+    "id": "sporlac-50-520",
+    "name": "Sporlac 50",
+    "pack": "10 CAP",
+    "rate": 2476.0,
+    "gst": 5.0,
+    "company": "Cipla",
+    "workbookRow": 521
+  },
+  {
+    "id": "azithral-75-521",
+    "name": "Azithral 75",
+    "pack": "30 TAB",
+    "rate": 2480.7,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 522
+  },
+  {
+    "id": "dolo-75-522",
+    "name": "Dolo 75",
+    "pack": "100 ML",
+    "rate": 2485.4,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 523
+  },
+  {
+    "id": "pantocid-75-523",
+    "name": "Pantocid 75",
+    "pack": "60 ML",
+    "rate": 2490.1,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 524
+  },
+  {
+    "id": "augmentin-75-524",
+    "name": "Augmentin 75",
+    "pack": "1 VIAL",
+    "rate": 2494.8,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 525
+  },
+  {
+    "id": "cetrizine-75-525",
+    "name": "Cetrizine 75",
+    "pack": "10 TAB",
+    "rate": 2499.5,
+    "gst": 5.0,
+    "company": "Mankind",
+    "workbookRow": 526
+  },
+  {
+    "id": "metformin-75-526",
+    "name": "Metformin 75",
+    "pack": "15 TAB",
+    "rate": 2504.2,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 527
+  },
+  {
+    "id": "telma-75-527",
+    "name": "Telma 75",
+    "pack": "10 CAP",
+    "rate": 2508.9,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 528
+  },
+  {
+    "id": "amlong-75-528",
+    "name": "Amlong 75",
+    "pack": "30 TAB",
+    "rate": 2513.6,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 529
+  },
+  {
+    "id": "shelcal-75-529",
+    "name": "Shelcal 75",
+    "pack": "100 ML",
+    "rate": 2518.3,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 530
+  },
+  {
+    "id": "zincovit-75-530",
+    "name": "Zincovit 75",
+    "pack": "60 ML",
+    "rate": 2523.0,
+    "gst": 5.0,
+    "company": "Abbott",
+    "workbookRow": 531
+  },
+  {
+    "id": "rantac-75-531",
+    "name": "Rantac 75",
+    "pack": "1 VIAL",
+    "rate": 2527.7,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 532
+  },
+  {
+    "id": "montair-75-532",
+    "name": "Montair 75",
+    "pack": "10 TAB",
+    "rate": 2532.4,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 533
+  },
+  {
+    "id": "pan-75-533",
+    "name": "Pan 75",
+    "pack": "15 TAB",
+    "rate": 2537.1,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 534
+  },
+  {
+    "id": "allegra-75-534",
+    "name": "Allegra 75",
+    "pack": "10 CAP",
+    "rate": 2541.8,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 535
+  },
+  {
+    "id": "calpol-75-535",
+    "name": "Calpol 75",
+    "pack": "30 TAB",
+    "rate": 2546.5,
+    "gst": 5.0,
+    "company": "Torrent",
+    "workbookRow": 536
+  },
+  {
+    "id": "meftal-75-536",
+    "name": "Meftal 75",
+    "pack": "100 ML",
+    "rate": 2551.2,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 537
+  },
+  {
+    "id": "ecosprin-75-537",
+    "name": "Ecosprin 75",
+    "pack": "60 ML",
+    "rate": 2555.9,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 538
+  },
+  {
+    "id": "thyronorm-75-538",
+    "name": "Thyronorm 75",
+    "pack": "1 VIAL",
+    "rate": 2560.6,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 539
+  },
+  {
+    "id": "liv-75-539",
+    "name": "Liv 75",
+    "pack": "10 TAB",
+    "rate": 2565.3,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 540
+  },
+  {
+    "id": "becosules-75-540",
+    "name": "Becosules 75",
+    "pack": "15 TAB",
+    "rate": 2570.0,
+    "gst": 5.0,
+    "company": "Glenmark",
+    "workbookRow": 541
+  },
+  {
+    "id": "clavam-75-541",
+    "name": "Clavam 75",
+    "pack": "10 CAP",
+    "rate": 2574.7,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 542
+  },
+  {
+    "id": "taxim-75-542",
+    "name": "Taxim 75",
+    "pack": "30 TAB",
+    "rate": 2579.4,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 543
+  },
+  {
+    "id": "omez-75-543",
+    "name": "Omez 75",
+    "pack": "100 ML",
+    "rate": 2584.1,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 544
+  },
+  {
+    "id": "rosuvas-75-544",
+    "name": "Rosuvas 75",
+    "pack": "60 ML",
+    "rate": 2588.8,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 545
+  },
+  {
+    "id": "atorva-75-545",
+    "name": "Atorva 75",
+    "pack": "1 VIAL",
+    "rate": 2593.5,
+    "gst": 5.0,
+    "company": "Sun Pharma",
+    "workbookRow": 546
+  },
+  {
+    "id": "glycomet-75-546",
+    "name": "Glycomet 75",
+    "pack": "10 TAB",
+    "rate": 2598.2,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 547
+  },
+  {
+    "id": "istamet-75-547",
+    "name": "Istamet 75",
+    "pack": "15 TAB",
+    "rate": 2602.9,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 548
+  },
+  {
+    "id": "janumet-75-548",
+    "name": "Janumet 75",
+    "pack": "10 CAP",
+    "rate": 2607.6,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 549
+  },
+  {
+    "id": "telmikind-75-549",
+    "name": "Telmikind 75",
+    "pack": "30 TAB",
+    "rate": 2612.3,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 550
+  },
+  {
+    "id": "olmezest-75-550",
+    "name": "Olmezest 75",
+    "pack": "100 ML",
+    "rate": 2617.0,
+    "gst": 5.0,
+    "company": "Dr Reddy",
+    "workbookRow": 551
+  },
+  {
+    "id": "aciloc-75-551",
+    "name": "Aciloc 75",
+    "pack": "60 ML",
+    "rate": 2621.7,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 552
+  },
+  {
+    "id": "nexpro-75-552",
+    "name": "Nexpro 75",
+    "pack": "1 VIAL",
+    "rate": 2626.4,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 553
+  },
+  {
+    "id": "montek-75-553",
+    "name": "Montek 75",
+    "pack": "10 TAB",
+    "rate": 2631.1,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 554
+  },
+  {
+    "id": "deriphyllin-75-554",
+    "name": "Deriphyllin 75",
+    "pack": "15 TAB",
+    "rate": 2635.8,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 555
+  },
+  {
+    "id": "sinarest-75-555",
+    "name": "Sinarest 75",
+    "pack": "10 CAP",
+    "rate": 2640.5,
+    "gst": 5.0,
+    "company": "Alkem",
+    "workbookRow": 556
+  },
+  {
+    "id": "combiflam-75-556",
+    "name": "Combiflam 75",
+    "pack": "30 TAB",
+    "rate": 2645.2,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 557
+  },
+  {
+    "id": "emeset-75-557",
+    "name": "Emeset 75",
+    "pack": "100 ML",
+    "rate": 2649.9,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 558
+  },
+  {
+    "id": "ondem-75-558",
+    "name": "Ondem 75",
+    "pack": "60 ML",
+    "rate": 2654.6,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 559
+  },
+  {
+    "id": "cyclopam-75-559",
+    "name": "Cyclopam 75",
+    "pack": "1 VIAL",
+    "rate": 2659.3,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 560
+  },
+  {
+    "id": "sporlac-75-560",
+    "name": "Sporlac 75",
+    "pack": "10 TAB",
+    "rate": 2664.0,
+    "gst": 5.0,
+    "company": "Cipla",
+    "workbookRow": 561
+  },
+  {
+    "id": "azithral-100-561",
+    "name": "Azithral 100",
+    "pack": "15 TAB",
+    "rate": 2668.7,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 562
+  },
+  {
+    "id": "dolo-100-562",
+    "name": "Dolo 100",
+    "pack": "10 CAP",
+    "rate": 2673.4,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 563
+  },
+  {
+    "id": "pantocid-100-563",
+    "name": "Pantocid 100",
+    "pack": "30 TAB",
+    "rate": 2678.1,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 564
+  },
+  {
+    "id": "augmentin-100-564",
+    "name": "Augmentin 100",
+    "pack": "100 ML",
+    "rate": 2682.8,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 565
+  },
+  {
+    "id": "cetrizine-100-565",
+    "name": "Cetrizine 100",
+    "pack": "60 ML",
+    "rate": 2687.5,
+    "gst": 5.0,
+    "company": "Mankind",
+    "workbookRow": 566
+  },
+  {
+    "id": "metformin-100-566",
+    "name": "Metformin 100",
+    "pack": "1 VIAL",
+    "rate": 2692.2,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 567
+  },
+  {
+    "id": "telma-100-567",
+    "name": "Telma 100",
+    "pack": "10 TAB",
+    "rate": 2696.9,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 568
+  },
+  {
+    "id": "amlong-100-568",
+    "name": "Amlong 100",
+    "pack": "15 TAB",
+    "rate": 2701.6,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 569
+  },
+  {
+    "id": "shelcal-100-569",
+    "name": "Shelcal 100",
+    "pack": "10 CAP",
+    "rate": 2706.3,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 570
+  },
+  {
+    "id": "zincovit-100-570",
+    "name": "Zincovit 100",
+    "pack": "30 TAB",
+    "rate": 2711.0,
+    "gst": 5.0,
+    "company": "Abbott",
+    "workbookRow": 571
+  },
+  {
+    "id": "rantac-100-571",
+    "name": "Rantac 100",
+    "pack": "100 ML",
+    "rate": 2715.7,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 572
+  },
+  {
+    "id": "montair-100-572",
+    "name": "Montair 100",
+    "pack": "60 ML",
+    "rate": 2720.4,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 573
+  },
+  {
+    "id": "pan-100-573",
+    "name": "Pan 100",
+    "pack": "1 VIAL",
+    "rate": 2725.1,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 574
+  },
+  {
+    "id": "allegra-100-574",
+    "name": "Allegra 100",
+    "pack": "10 TAB",
+    "rate": 2729.8,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 575
+  },
+  {
+    "id": "calpol-100-575",
+    "name": "Calpol 100",
+    "pack": "15 TAB",
+    "rate": 2734.5,
+    "gst": 5.0,
+    "company": "Torrent",
+    "workbookRow": 576
+  },
+  {
+    "id": "meftal-100-576",
+    "name": "Meftal 100",
+    "pack": "10 CAP",
+    "rate": 2739.2,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 577
+  },
+  {
+    "id": "ecosprin-100-577",
+    "name": "Ecosprin 100",
+    "pack": "30 TAB",
+    "rate": 2743.9,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 578
+  },
+  {
+    "id": "thyronorm-100-578",
+    "name": "Thyronorm 100",
+    "pack": "100 ML",
+    "rate": 2748.6,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 579
+  },
+  {
+    "id": "liv-100-579",
+    "name": "Liv 100",
+    "pack": "60 ML",
+    "rate": 2753.3,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 580
+  },
+  {
+    "id": "becosules-100-580",
+    "name": "Becosules 100",
+    "pack": "1 VIAL",
+    "rate": 2758.0,
+    "gst": 5.0,
+    "company": "Glenmark",
+    "workbookRow": 581
+  },
+  {
+    "id": "clavam-100-581",
+    "name": "Clavam 100",
+    "pack": "10 TAB",
+    "rate": 2762.7,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 582
+  },
+  {
+    "id": "taxim-100-582",
+    "name": "Taxim 100",
+    "pack": "15 TAB",
+    "rate": 2767.4,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 583
+  },
+  {
+    "id": "omez-100-583",
+    "name": "Omez 100",
+    "pack": "10 CAP",
+    "rate": 2772.1,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 584
+  },
+  {
+    "id": "rosuvas-100-584",
+    "name": "Rosuvas 100",
+    "pack": "30 TAB",
+    "rate": 2776.8,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 585
+  },
+  {
+    "id": "atorva-100-585",
+    "name": "Atorva 100",
+    "pack": "100 ML",
+    "rate": 2781.5,
+    "gst": 5.0,
+    "company": "Sun Pharma",
+    "workbookRow": 586
+  },
+  {
+    "id": "glycomet-100-586",
+    "name": "Glycomet 100",
+    "pack": "60 ML",
+    "rate": 2786.2,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 587
+  },
+  {
+    "id": "istamet-100-587",
+    "name": "Istamet 100",
+    "pack": "1 VIAL",
+    "rate": 2790.9,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 588
+  },
+  {
+    "id": "janumet-100-588",
+    "name": "Janumet 100",
+    "pack": "10 TAB",
+    "rate": 2795.6,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 589
+  },
+  {
+    "id": "telmikind-100-589",
+    "name": "Telmikind 100",
+    "pack": "15 TAB",
+    "rate": 2800.3,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 590
+  },
+  {
+    "id": "olmezest-100-590",
+    "name": "Olmezest 100",
+    "pack": "10 CAP",
+    "rate": 2805.0,
+    "gst": 5.0,
+    "company": "Dr Reddy",
+    "workbookRow": 591
+  },
+  {
+    "id": "aciloc-100-591",
+    "name": "Aciloc 100",
+    "pack": "30 TAB",
+    "rate": 2809.7,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 592
+  },
+  {
+    "id": "nexpro-100-592",
+    "name": "Nexpro 100",
+    "pack": "100 ML",
+    "rate": 2814.4,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 593
+  },
+  {
+    "id": "montek-100-593",
+    "name": "Montek 100",
+    "pack": "60 ML",
+    "rate": 2819.1,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 594
+  },
+  {
+    "id": "deriphyllin-100-594",
+    "name": "Deriphyllin 100",
+    "pack": "1 VIAL",
+    "rate": 2823.8,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 595
+  },
+  {
+    "id": "sinarest-100-595",
+    "name": "Sinarest 100",
+    "pack": "10 TAB",
+    "rate": 2828.5,
+    "gst": 5.0,
+    "company": "Alkem",
+    "workbookRow": 596
+  },
+  {
+    "id": "combiflam-100-596",
+    "name": "Combiflam 100",
+    "pack": "15 TAB",
+    "rate": 2833.2,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 597
+  },
+  {
+    "id": "emeset-100-597",
+    "name": "Emeset 100",
+    "pack": "10 CAP",
+    "rate": 2837.9,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 598
+  },
+  {
+    "id": "ondem-100-598",
+    "name": "Ondem 100",
+    "pack": "30 TAB",
+    "rate": 2842.6,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 599
+  },
+  {
+    "id": "cyclopam-100-599",
+    "name": "Cyclopam 100",
+    "pack": "100 ML",
+    "rate": 2847.3,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 600
+  },
+  {
+    "id": "sporlac-100-600",
+    "name": "Sporlac 100",
+    "pack": "60 ML",
+    "rate": 2852.0,
+    "gst": 5.0,
+    "company": "Cipla",
+    "workbookRow": 601
+  },
+  {
+    "id": "azithral-120-601",
+    "name": "Azithral 120",
+    "pack": "1 VIAL",
+    "rate": 2856.7,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 602
+  },
+  {
+    "id": "dolo-120-602",
+    "name": "Dolo 120",
+    "pack": "10 TAB",
+    "rate": 2861.4,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 603
+  },
+  {
+    "id": "pantocid-120-603",
+    "name": "Pantocid 120",
+    "pack": "15 TAB",
+    "rate": 2866.1,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 604
+  },
+  {
+    "id": "augmentin-120-604",
+    "name": "Augmentin 120",
+    "pack": "10 CAP",
+    "rate": 2870.8,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 605
+  },
+  {
+    "id": "cetrizine-120-605",
+    "name": "Cetrizine 120",
+    "pack": "30 TAB",
+    "rate": 2875.5,
+    "gst": 5.0,
+    "company": "Mankind",
+    "workbookRow": 606
+  },
+  {
+    "id": "metformin-120-606",
+    "name": "Metformin 120",
+    "pack": "100 ML",
+    "rate": 2880.2,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 607
+  },
+  {
+    "id": "telma-120-607",
+    "name": "Telma 120",
+    "pack": "60 ML",
+    "rate": 2884.9,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 608
+  },
+  {
+    "id": "amlong-120-608",
+    "name": "Amlong 120",
+    "pack": "1 VIAL",
+    "rate": 2889.6,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 609
+  },
+  {
+    "id": "shelcal-120-609",
+    "name": "Shelcal 120",
+    "pack": "10 TAB",
+    "rate": 2894.3,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 610
+  },
+  {
+    "id": "zincovit-120-610",
+    "name": "Zincovit 120",
+    "pack": "15 TAB",
+    "rate": 2899.0,
+    "gst": 5.0,
+    "company": "Abbott",
+    "workbookRow": 611
+  },
+  {
+    "id": "rantac-120-611",
+    "name": "Rantac 120",
+    "pack": "10 CAP",
+    "rate": 2903.7,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 612
+  },
+  {
+    "id": "montair-120-612",
+    "name": "Montair 120",
+    "pack": "30 TAB",
+    "rate": 2908.4,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 613
+  },
+  {
+    "id": "pan-120-613",
+    "name": "Pan 120",
+    "pack": "100 ML",
+    "rate": 2913.1,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 614
+  },
+  {
+    "id": "allegra-120-614",
+    "name": "Allegra 120",
+    "pack": "60 ML",
+    "rate": 2917.8,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 615
+  },
+  {
+    "id": "calpol-120-615",
+    "name": "Calpol 120",
+    "pack": "1 VIAL",
+    "rate": 2922.5,
+    "gst": 5.0,
+    "company": "Torrent",
+    "workbookRow": 616
+  },
+  {
+    "id": "meftal-120-616",
+    "name": "Meftal 120",
+    "pack": "10 TAB",
+    "rate": 2927.2,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 617
+  },
+  {
+    "id": "ecosprin-120-617",
+    "name": "Ecosprin 120",
+    "pack": "15 TAB",
+    "rate": 2931.9,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 618
+  },
+  {
+    "id": "thyronorm-120-618",
+    "name": "Thyronorm 120",
+    "pack": "10 CAP",
+    "rate": 2936.6,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 619
+  },
+  {
+    "id": "liv-120-619",
+    "name": "Liv 120",
+    "pack": "30 TAB",
+    "rate": 2941.3,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 620
+  },
+  {
+    "id": "becosules-120-620",
+    "name": "Becosules 120",
+    "pack": "100 ML",
+    "rate": 2946.0,
+    "gst": 5.0,
+    "company": "Glenmark",
+    "workbookRow": 621
+  },
+  {
+    "id": "clavam-120-621",
+    "name": "Clavam 120",
+    "pack": "60 ML",
+    "rate": 2950.7,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 622
+  },
+  {
+    "id": "taxim-120-622",
+    "name": "Taxim 120",
+    "pack": "1 VIAL",
+    "rate": 2955.4,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 623
+  },
+  {
+    "id": "omez-120-623",
+    "name": "Omez 120",
+    "pack": "10 TAB",
+    "rate": 2960.1,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 624
+  },
+  {
+    "id": "rosuvas-120-624",
+    "name": "Rosuvas 120",
+    "pack": "15 TAB",
+    "rate": 2964.8,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 625
+  },
+  {
+    "id": "atorva-120-625",
+    "name": "Atorva 120",
+    "pack": "10 CAP",
+    "rate": 2969.5,
+    "gst": 5.0,
+    "company": "Sun Pharma",
+    "workbookRow": 626
+  },
+  {
+    "id": "glycomet-120-626",
+    "name": "Glycomet 120",
+    "pack": "30 TAB",
+    "rate": 2974.2,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 627
+  },
+  {
+    "id": "istamet-120-627",
+    "name": "Istamet 120",
+    "pack": "100 ML",
+    "rate": 2978.9,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 628
+  },
+  {
+    "id": "janumet-120-628",
+    "name": "Janumet 120",
+    "pack": "60 ML",
+    "rate": 2983.6,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 629
+  },
+  {
+    "id": "telmikind-120-629",
+    "name": "Telmikind 120",
+    "pack": "1 VIAL",
+    "rate": 2988.3,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 630
+  },
+  {
+    "id": "olmezest-120-630",
+    "name": "Olmezest 120",
+    "pack": "10 TAB",
+    "rate": 2993.0,
+    "gst": 5.0,
+    "company": "Dr Reddy",
+    "workbookRow": 631
+  },
+  {
+    "id": "aciloc-120-631",
+    "name": "Aciloc 120",
+    "pack": "15 TAB",
+    "rate": 2997.7,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 632
+  },
+  {
+    "id": "nexpro-120-632",
+    "name": "Nexpro 120",
+    "pack": "10 CAP",
+    "rate": 3002.4,
+    "gst": 12.0,
+    "company": "Cipla",
+    "workbookRow": 633
+  },
+  {
+    "id": "montek-120-633",
+    "name": "Montek 120",
+    "pack": "30 TAB",
+    "rate": 3007.1,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 634
+  },
+  {
+    "id": "deriphyllin-120-634",
+    "name": "Deriphyllin 120",
+    "pack": "100 ML",
+    "rate": 3011.8,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 635
+  },
+  {
+    "id": "sinarest-120-635",
+    "name": "Sinarest 120",
+    "pack": "60 ML",
+    "rate": 3016.5,
+    "gst": 5.0,
+    "company": "Alkem",
+    "workbookRow": 636
+  },
+  {
+    "id": "combiflam-120-636",
+    "name": "Combiflam 120",
+    "pack": "1 VIAL",
+    "rate": 3021.2,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 637
+  },
+  {
+    "id": "emeset-120-637",
+    "name": "Emeset 120",
+    "pack": "10 TAB",
+    "rate": 3025.9,
+    "gst": 12.0,
+    "company": "Mankind",
+    "workbookRow": 638
+  },
+  {
+    "id": "ondem-120-638",
+    "name": "Ondem 120",
+    "pack": "15 TAB",
+    "rate": 3030.6,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 639
+  },
+  {
+    "id": "cyclopam-120-639",
+    "name": "Cyclopam 120",
+    "pack": "10 CAP",
+    "rate": 3035.3,
+    "gst": 12.0,
+    "company": "Torrent",
+    "workbookRow": 640
+  },
+  {
+    "id": "sporlac-120-640",
+    "name": "Sporlac 120",
+    "pack": "30 TAB",
+    "rate": 3040.0,
+    "gst": 5.0,
+    "company": "Cipla",
+    "workbookRow": 641
+  },
+  {
+    "id": "azithral-150-641",
+    "name": "Azithral 150",
+    "pack": "100 ML",
+    "rate": 3044.7,
+    "gst": 12.0,
+    "company": "Sun Pharma",
+    "workbookRow": 642
+  },
+  {
+    "id": "dolo-150-642",
+    "name": "Dolo 150",
+    "pack": "60 ML",
+    "rate": 3049.4,
+    "gst": 12.0,
+    "company": "Abbott",
+    "workbookRow": 643
+  },
+  {
+    "id": "pantocid-150-643",
+    "name": "Pantocid 150",
+    "pack": "1 VIAL",
+    "rate": 3054.1,
+    "gst": 12.0,
+    "company": "Alkem",
+    "workbookRow": 644
+  },
+  {
+    "id": "augmentin-150-644",
+    "name": "Augmentin 150",
+    "pack": "10 TAB",
+    "rate": 3058.8,
+    "gst": 12.0,
+    "company": "Glenmark",
+    "workbookRow": 645
+  },
+  {
+    "id": "cetrizine-150-645",
+    "name": "Cetrizine 150",
+    "pack": "15 TAB",
+    "rate": 3063.5,
+    "gst": 5.0,
+    "company": "Mankind",
+    "workbookRow": 646
+  },
+  {
+    "id": "metformin-150-646",
+    "name": "Metformin 150",
+    "pack": "10 CAP",
+    "rate": 3068.2,
+    "gst": 12.0,
+    "company": "Dr Reddy",
+    "workbookRow": 647
+  }
+]
