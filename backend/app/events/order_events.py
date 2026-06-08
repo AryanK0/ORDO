@@ -224,7 +224,7 @@ class OrderEventProcessor:
                     suggestions=suggestions,
                 )
             )
-        return self.merge_duplicate_rows(rows)
+        return self.merge_duplicate_rows(rows, strict_text_match=True)
 
     def text_to_events(self, text: str) -> list[SmartOrderEvent]:
         return self.extractor.extract_events(text)
@@ -274,11 +274,14 @@ class OrderEventProcessor:
                 row.suggestions = suggestions
         return self.merge_duplicate_rows(rows)
 
-    def merge_duplicate_rows(self, rows: list[RecognitionRow]) -> list[RecognitionRow]:
+    def merge_duplicate_rows(self, rows: list[RecognitionRow], strict_text_match: bool = False) -> list[RecognitionRow]:
         merged: dict[str, RecognitionRow] = {}
         order: list[str] = []
         for row in rows:
-            key = row.matchedProduct.id if row.matchedProduct else _compact_key(row.ocrText)
+            if strict_text_match:
+                key = _compact_key(row.ocrText)
+            else:
+                key = row.matchedProduct.id if row.matchedProduct else _compact_key(row.ocrText)
             if not key:
                 key = row.id
             if key not in merged:

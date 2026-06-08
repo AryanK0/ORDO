@@ -1,4 +1,4 @@
-import { ChevronDown, ChevronRight, Plus, Search, Trash2 } from 'lucide-react'
+import { ChevronDown, ChevronRight, Plus, Search, Trash2, Undo, Redo } from 'lucide-react'
 import { Fragment, useMemo, useState } from 'react'
 import type { Product, RecognitionRow } from '../../types'
 import { average, cn } from '../../lib/utils'
@@ -6,6 +6,8 @@ import { Badge } from '../ui/badge'
 import { Button } from '../ui/button'
 import { Input } from '../ui/input'
 import { ProductCombobox } from './ProductCombobox'
+
+import { useOrdersStore } from '../../store/useOrdersStore'
 
 interface RecognitionTableProps {
   rows: RecognitionRow[]
@@ -15,6 +17,7 @@ interface RecognitionTableProps {
 type SortMode = 'manual' | 'confidence' | 'quantity'
 
 export function RecognitionTable({ rows, onRowsChange }: RecognitionTableProps) {
+  const { undo, redo, history, historyIndex } = useOrdersStore()
   const [search, setSearch] = useState('')
   const [filter, setFilter] = useState<'all' | 'review'>('all')
   const [expanded, setExpanded] = useState<string[]>([])
@@ -95,6 +98,26 @@ export function RecognitionTable({ rows, onRowsChange }: RecognitionTableProps) 
             <option value="confidence">Sort by confidence</option>
             <option value="quantity">Sort by quantity</option>
           </select>
+          <div className="flex items-center gap-1 border-l border-white/10 pl-2 ml-1">
+            <Button 
+              variant="secondary" 
+              className="px-2" 
+              onClick={undo} 
+              disabled={historyIndex <= 0}
+              title="Undo"
+            >
+              <Undo size={16} />
+            </Button>
+            <Button 
+              variant="secondary" 
+              className="px-2" 
+              onClick={redo} 
+              disabled={historyIndex >= history.length - 1}
+              title="Redo"
+            >
+              <Redo size={16} />
+            </Button>
+          </div>
           <Button onClick={addRow}>
             <Plus size={16} />
             <span>Add row</span>
@@ -148,13 +171,20 @@ export function RecognitionTable({ rows, onRowsChange }: RecognitionTableProps) 
                       </div>
                     </td>
                     <td className="px-4 py-4">
-                      <Input
-                        className="w-24"
-                        min={1}
-                        type="number"
-                        value={row.quantity}
-                        onChange={(event) => patchRow(row.id, { quantity: Number(event.target.value) })}
-                      />
+                      <div className="flex flex-col gap-1">
+                        <Input
+                          className={cn("w-24", !row.quantity && "border-red-500/50")}
+                          min={1}
+                          type="number"
+                          value={row.quantity || ''}
+                          onFocus={(e) => e.target.select()}
+                          onChange={(event) => {
+                            const val = event.target.value
+                            patchRow(row.id, { quantity: val === '' ? 0 : Number(val) })
+                          }}
+                        />
+                        {!row.quantity && <span className="text-[10px] text-red-400 font-medium">qty can't be empty</span>}
+                      </div>
                     </td>
                     <td className="px-4 py-4">
                       <Badge confidence={row.confidence}>{Math.round(row.confidence)}%</Badge>
