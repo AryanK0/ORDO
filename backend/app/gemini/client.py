@@ -69,7 +69,8 @@ class GeminiValidator:
 
     def _parse_line(self, line: str) -> StructuredItem:
         cleaned = re.sub(r"\s+", " ", line.replace("–", "-")).strip(" -")
-        match = re.search(r"(?:-| x | qty )?\s*(\d+)\s*(?:nos?|pcs?|btl|btls|strips?|tabs?)?\s*$", cleaned, re.IGNORECASE)
+        units = r"(?:nos?|pcs?|pice|pie|pic|pc|btls?|strips?|tabs?|box|boc|bkx|beg|bags?|cse|case|caps?|ont|gm|ml|pack|pkts?)"
+        match = re.search(rf"(?:-| x | qty )?\s*(\d+)\s*(?:{units}(?:\s+{units})*)?\s*$", cleaned, re.IGNORECASE)
         if match:
             quantity = max(1, int(match.group(1)))
             text = cleaned[: match.start()].strip(" -")
