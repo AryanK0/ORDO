@@ -34,6 +34,14 @@ export const api = {
   settings: () => request<SettingsSummary>('/api/settings'),
   products: (query: string) =>
     request<Product[]>(`/api/products?search=${encodeURIComponent(query)}&limit=80`),
+  uploadCatalog: async (file: File) => {
+    const formData = new FormData()
+    formData.append('file', file)
+    return request<SettingsSummary>('/api/settings/catalog', {
+      method: 'POST',
+      body: formData,
+    })
+  },
   processOrder: async (files: File[]) => {
     const formData = new FormData()
     files.forEach((file) => formData.append('files', file))

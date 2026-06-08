@@ -186,6 +186,32 @@ def settings() -> SettingsSummary:
     )
 
 
+@router.post("/settings/catalog", response_model=SettingsSummary)
+def upload_catalog(file: UploadFile = File(...)) -> SettingsSummary:
+    suffix = Path(file.filename or "").suffix.lower()
+    if suffix not in {".xlsx", ".xls"}:
+        raise HTTPException(status_code=400, detail="Only Excel files (.xlsx, .xls) are allowed.")
+
+    # Override the master workbook file
+    with services.catalog.source.open("wb") as file_handle:
+        shutil.copyfileobj(file.file, file_handle)
+
+    # Reload catalog
+    services.catalog.load()
+
+    # Re-instantiate matcher to apply the new catalog items
+    services.matcher = ProductMatcher(services.catalog, services.aliases)
+    services.event_processor.matcher = services.matcher
+
+    return SettingsSummary(
+        productCount=len(services.catalog.products),
+        aliasCount=len(services.aliases.aliases),
+        aiModel=services.gemini.model,
+        ocrEngine=services.ocr.engine_name,
+        catalogSource=services.catalog.source,
+    )
+
+
 @router.post("/orders/process", response_model=ProcessedOrder)
 def process_order(files: list[UploadFile] = File(...)) -> ProcessedOrder:
     if not files:

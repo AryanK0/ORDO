@@ -1,5 +1,6 @@
-import { Bot, Boxes, BrainCircuit, FileJson, ScanText } from 'lucide-react'
-import { useQuery } from '@tanstack/react-query'
+import { Bot, Boxes, BrainCircuit, FileJson, ScanText, UploadCloud, Loader2 } from 'lucide-react'
+import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
+import { useRef } from 'react'
 import { api } from '../lib/api'
 import { Card } from '../components/ui/card'
 
@@ -8,21 +9,28 @@ function SettingRow({
   label,
   value,
   detail,
+  action,
 }: {
   icon: typeof Boxes
   label: string
   value: string
   detail: string
+  action?: React.ReactNode
 }) {
   return (
-    <Card className="p-5">
+    <Card className="p-5 flex flex-col justify-between">
       <div className="flex items-start gap-4">
-        <div className="grid h-10 w-10 place-items-center rounded-md border border-red-500/20 bg-red-500/10 text-red-300">
+        <div className="grid h-10 w-10 shrink-0 place-items-center rounded-md border border-red-500/20 bg-red-500/10 text-red-300">
           <Icon size={18} />
         </div>
-        <div>
-          <p className="text-sm text-zinc-500">{label}</p>
-          <p className="mt-2 text-xl font-semibold text-white">{value}</p>
+        <div className="flex-1">
+          <div className="flex items-start justify-between gap-4">
+            <div>
+              <p className="text-sm text-zinc-500">{label}</p>
+              <p className="mt-2 text-xl font-semibold text-white">{value}</p>
+            </div>
+            {action && <div>{action}</div>}
+          </div>
           <p className="mt-2 text-sm leading-6 text-zinc-500">{detail}</p>
         </div>
       </div>
@@ -31,8 +39,35 @@ function SettingRow({
 }
 
 export function Settings() {
+  const queryClient = useQueryClient()
+  const fileInputRef = useRef<HTMLInputElement>(null)
+  
   const settings = useQuery({ queryKey: ['settings'], queryFn: api.settings })
   const data = settings.data
+
+  const uploadMutation = useMutation({
+    mutationFn: api.uploadCatalog,
+    onSuccess: (newData) => {
+      queryClient.setQueryData(['settings'], newData)
+      window.alert('Catalog updated successfully!')
+      if (fileInputRef.current) {
+        fileInputRef.current.value = ''
+      }
+    },
+    onError: (error) => {
+      window.alert(error instanceof Error ? error.message : 'Upload failed')
+      if (fileInputRef.current) {
+        fileInputRef.current.value = ''
+      }
+    },
+  })
+
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0]
+    if (file) {
+      uploadMutation.mutate(file)
+    }
+  }
 
   return (
     <div className="space-y-6">
@@ -42,7 +77,7 @@ export function Settings() {
           Processing configuration
         </h1>
         <p className="mt-3 max-w-2xl text-sm leading-6 text-zinc-500">
-          Read-only operational settings for catalog loading, alias learning,
+          Operational settings for catalog loading, alias learning,
           OCR, and validation model configuration.
         </p>
       </div>
@@ -53,6 +88,29 @@ export function Settings() {
           label="Product Catalog"
           value={`${data?.productCount ?? 0} Products Loaded`}
           detail={`Catalog source: ${data?.catalogSource ?? 'backend cache'}`}
+          action={
+            <>
+              <input
+                type="file"
+                ref={fileInputRef}
+                className="hidden"
+                accept=".xlsx, .xls"
+                onChange={handleFileChange}
+              />
+              <button
+                onClick={() => fileInputRef.current?.click()}
+                disabled={uploadMutation.isPending}
+                className="flex items-center gap-2 rounded-md bg-zinc-800 px-3 py-1.5 text-sm font-medium text-zinc-200 hover:bg-zinc-700 hover:text-white disabled:opacity-50 transition-colors"
+              >
+                {uploadMutation.isPending ? (
+                  <Loader2 size={16} className="animate-spin text-red-400" />
+                ) : (
+                  <UploadCloud size={16} className="text-red-400" />
+                )}
+                Upload new
+              </button>
+            </>
+          }
         />
         <SettingRow
           icon={FileJson}
