@@ -4,6 +4,7 @@ from pathlib import Path
 
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import PatternFill
+from openpyxl.utils import get_column_letter
 
 from app.models.schemas import ProcessedOrder
 
@@ -109,8 +110,8 @@ class WorkbookGenerator:
                 _copy_cell(source_sheet.cell(header_row, source_col), target_cell)
                 if isinstance(target_cell.value, str):
                     target_cell.value = target_cell.value.strip()
-                source_letter = source_sheet.cell(header_row, source_col).column_letter
-                sheet.column_dimensions[sheet.cell(1, col_index).column_letter].width = (
+                source_letter = get_column_letter(source_col)
+                sheet.column_dimensions[get_column_letter(col_index)].width = (
                     source_sheet.column_dimensions[source_letter].width or 14
                 )
 
