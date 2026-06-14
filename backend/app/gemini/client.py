@@ -32,8 +32,8 @@ class GeminiValidator:
                 catalog_prompt = (
                     "You MUST map each extracted item to a product from the following catalog.\n"
                     "Your JSON output for each item MUST have three keys: `text`, `quantity`, and `catalogId`.\n"
-                    "`catalogId` MUST be the exact ID of the matching product from the catalog below.\n"
-                    "If no match exists, set `catalogId` to null.\n"
+                    "`catalogId` MUST be the ID of the best matching product from the catalog below.\n"
+                    "Even if the name is slightly different or contains pack sizes, find the best logical match. Do NOT set `catalogId` to null unless the item is completely unrecognized.\n"
                     f"Catalog:\n{catalog_json}\n\n"
                 )
 
@@ -44,7 +44,12 @@ class GeminiValidator:
                 + catalog_prompt
                 + "\n".join(cleaned_lines)
             )
-            response = model.generate_content(prompt)
+            response = model.generate_content(
+                prompt,
+                generation_config=genai.types.GenerationConfig(
+                    response_mime_type="application/json",
+                )
+            )
             parsed = self._loads_json(response.text or "[]")
             return [StructuredItem.model_validate(item) for item in parsed]
         except Exception:
@@ -69,8 +74,8 @@ class GeminiValidator:
                 catalog_prompt = (
                     "You MUST map each extracted item to a product from the following catalog.\n"
                     "Your JSON output for each item MUST have three keys: `text`, `quantity`, and `catalogId`.\n"
-                    "`catalogId` MUST be the exact ID of the matching product from the catalog below.\n"
-                    "If no match exists, set `catalogId` to null.\n"
+                    "`catalogId` MUST be the ID of the best matching product from the catalog below.\n"
+                    "Even if the name is slightly different or contains pack sizes, find the best logical match. Do NOT set `catalogId` to null unless the item is completely unrecognized.\n"
                     f"Catalog:\n{catalog_json}\n\n"
                 )
 
@@ -81,10 +86,14 @@ class GeminiValidator:
                         "Read this pharmaceutical purchase/order document. Return JSON only as an "
                         "array of objects. Each object MUST contain keys `text`, `quantity`, and `catalogId`. `text` is the product name or "
                         "abbreviation as written. `quantity` is the ordered quantity. Do not use HSN, "
-                        "GST, MRP, rate, amount, serial number, pack size, or totals as quantity.\n\n"
+                        "GST, MRP, rate, amount, serial number, pack size, or totals as quantity.\n"
+                        "IMPORTANT: If a single physical line contains two distinct items, separate them into two objects.\n\n"
                         + catalog_prompt
                     ),
-                ]
+                ],
+                generation_config=genai.types.GenerationConfig(
+                    response_mime_type="application/json",
+                )
             )
             parsed = self._loads_json(response.text or "[]")
             return [StructuredItem.model_validate(item) for item in parsed if str(item.get("text", "")).strip()]

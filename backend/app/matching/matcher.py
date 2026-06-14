@@ -101,7 +101,6 @@ def _preferred_product_name(text: str) -> str | None:
         ("dermovent5", "DERMOVENT-5 CREAM 15GM"),
         ("rozogurdgold20", "ROZUCARD-GOLD 20 CAP (10X1X10)"),
         ("citiridep", "CITIRIDE-P TAB"),
-        ("ventcortil5", "DONACORTIL-6 TAB"),
         ("candiventvg", "CANDIVENT-VG 30GM"),
         ("zyfix200lb", "ZYFIX 200-LB TAB"),
         ("levotramine10", "LEVOTRAMINE-10 TAB"),
@@ -123,9 +122,13 @@ def _preferred_product_name(text: str) -> str | None:
         ("torigesic60", "TORIGESIC-60 TAB"),
         ("coliventdrops", "COLIVENT DROPS 30ML"),
         ("udiventsyp", "UDIVENT ORAL SUSP. 100 ML"),
+        ("chocolate", "PROTIMINTA (CHOCOLATE) NEW"),
+        ("chocolatepowder", "PROTIMINTA (CHOCOLATE) NEW"),
+        ("americannuts", "PROTIMINTA (AMERICAN ICECREAM) NEW"),
+        ("americannutspowder", "PROTIMINTA (AMERICAN ICECREAM) NEW"),
     ]
     for key, product_name in aliases:
-        if key in compact:
+        if compact == key:
             return product_name
     return None
 
@@ -208,30 +211,15 @@ def _candidate_score(text: str, product: Product) -> float:
     if not query or not label:
         return 0
 
-    score = max(
-        fuzz.WRatio(query, label),
-        fuzz.token_set_ratio(query, label),
-        fuzz.partial_ratio(query, label) * 0.9,
-    )
+    # Base score using token set and sort ratios
+    set_ratio = fuzz.token_set_ratio(query, label)
+    sort_ratio = fuzz.token_sort_ratio(query, label)
+    score = (set_ratio * 0.7) + (sort_ratio * 0.3)
+
+    # Bonus for exact prefix token match
     if query_tokens and label_tokens and query_tokens[0] == label_tokens[0]:
-        score += 25
-
-    query_set = set(query_tokens)
-    label_set = set(label_tokens)
-    score += len(query_set & label_set) * 4
-
-    query_numbers = {token for token in query_tokens if any(character.isdigit() for character in token)}
-    label_numbers = {token for token in label_tokens if any(character.isdigit() for character in token)}
-    score += len(query_numbers & label_numbers) * 8
-    if query_numbers and not query_numbers.intersection(label_numbers):
-        score -= 12
-
-    query_forms = query_set & FORM_TOKENS
-    label_forms = label_set & FORM_TOKENS
-    if query_forms and label_forms:
-        score += len(query_forms & label_forms) * 10
-        if not query_forms.intersection(label_forms):
-            score -= 18
+        score += 10
+        
     return score
 
 
