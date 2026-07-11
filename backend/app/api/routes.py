@@ -30,7 +30,6 @@ from app.models.schemas import (
     SettingsSummary,
     UploadPageStatus,
 )
-from app.ocr.paddle_service import PaddleOCRService
 from app.speech.whisper_service import WhisperService
 from app.storage.repository import OrderRepository
 
@@ -57,7 +56,6 @@ class Services:
     catalog: ProductCatalog
     aliases: AliasStore
     matcher: ProductMatcher
-    ocr: PaddleOCRService
     gemini: GeminiValidator
     orders: OrderRepository
     workbooks: WorkbookGenerator
@@ -76,7 +74,6 @@ def configure_services(
     *,
     catalog: ProductCatalog,
     aliases: AliasStore,
-    ocr: PaddleOCRService,
     gemini: GeminiValidator,
     orders: OrderRepository,
     workbooks: WorkbookGenerator,
@@ -87,7 +84,6 @@ def configure_services(
     services.catalog = catalog
     services.aliases = aliases
     services.matcher = ProductMatcher(catalog, aliases)
-    services.ocr = ocr
     services.gemini = gemini
     services.orders = orders
     services.workbooks = workbooks
@@ -181,7 +177,7 @@ def settings() -> SettingsSummary:
         productCount=len(services.catalog.products),
         aliasCount=len(services.aliases.aliases),
         aiModel=services.gemini.model,
-        ocrEngine=services.ocr.engine_name,
+        ocrEngine="Gemini Native",
         catalogSource=services.catalog.source,
     )
 
@@ -207,7 +203,7 @@ def upload_catalog(file: UploadFile = File(...)) -> SettingsSummary:
         productCount=len(services.catalog.products),
         aliasCount=len(services.aliases.aliases),
         aiModel=services.gemini.model,
-        ocrEngine=services.ocr.engine_name,
+        ocrEngine="Gemini Native",
         catalogSource=services.catalog.source,
     )
 
@@ -226,11 +222,8 @@ def process_order(files: list[UploadFile] = File(...)) -> ProcessedOrder:
     for upload in files:
         target = _save_upload(upload)
         page_id = str(uuid.uuid4())
-        lines = services.ocr.extract_text(target, upload.filename)
-        if not lines:
-            structured_items = services.gemini.extract_file_items(target, services.catalog)
-        else:
-            structured_items = services.gemini.structure(lines, services.catalog)
+        
+        structured_items = services.gemini.extract_file_items(target, services.catalog)
 
         if not structured_items:
             pages.append(
@@ -250,7 +243,7 @@ def process_order(files: list[UploadFile] = File(...)) -> ProcessedOrder:
                 id=page_id,
                 fileName=upload.filename or "order",
                 status="complete",
-                lineCount=len(lines),
+                lineCount=len(structured_items),
                 rowCount=len(page_rows),
             )
         )
@@ -260,8 +253,7 @@ def process_order(files: list[UploadFile] = File(...)) -> ProcessedOrder:
         raise HTTPException(
             status_code=422,
             detail=(
-                "Could not extract order lines from these files. Configure GEMINI_API_KEY "
-                "or install PaddleOCR for unsupported handwritten images."
+                "Could not extract order lines from these files. Configure GEMINI_API_KEY."
             ),
         )
 

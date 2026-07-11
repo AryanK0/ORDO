@@ -11,7 +11,6 @@ from app.excel.workbook import WorkbookGenerator
 from app.gemini.client import GeminiValidator
 from app.matching.aliases import AliasStore
 from app.matching.catalog import ProductCatalog
-from app.ocr.paddle_service import PaddleOCRService
 from app.speech.whisper_service import WhisperService
 from app.storage.repository import OrderRepository
 
@@ -32,7 +31,6 @@ def create_app() -> FastAPI:
     configure_services(
         catalog=catalog,
         aliases=aliases,
-        ocr=PaddleOCRService(),
         gemini=GeminiValidator(settings.gemini_api_key, settings.gemini_model),
         orders=orders,
         workbooks=WorkbookGenerator(settings.master_workbook_path, settings.downloads_dir),

@@ -214,7 +214,18 @@ def _candidate_score(text: str, product: Product) -> float:
     # Base score using token set and sort ratios
     set_ratio = fuzz.token_set_ratio(query, label)
     sort_ratio = fuzz.token_sort_ratio(query, label)
-    score = (set_ratio * 0.7) + (sort_ratio * 0.3)
+    score = (set_ratio * 0.6) + (sort_ratio * 0.4)
+
+    # Strongly penalize mismatched form tokens to prevent merging distinct variants
+    query_forms = set(query_tokens) & FORM_TOKENS
+    label_forms = set(label_tokens) & FORM_TOKENS
+    if query_forms and label_forms:
+        if not (query_forms & label_forms):
+            score -= 30
+    elif query_forms and not label_forms:
+        score -= 10
+    elif label_forms and not query_forms:
+        score -= 5
 
     # Bonus for exact prefix token match
     if query_tokens and label_tokens and query_tokens[0] == label_tokens[0]:
